@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/14/StructureDiagram" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" xmi:id="_c2f3ad02-97fa-4461-98d0-970b75f92dc0" type="Dsl" name="Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B.sd" measurementUnit="Pixel">
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="Move_Adoption_Vivo%20M%20ohne%20FX_BP(LSV)_Print%20Code%20as%20online_No%20change%20in%20B.sl#/" />
+  <children xmi:type="notation:Shape" xmi:id="_Timeline" type="Note" fontName="Segoe UI" description="This diagram was automatically generated from Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B....xls on 23/05/2018 17:28:43 by Excel Manual Tests Importer" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_e93228fda25d4872bdd35015572c4976" type="DiagramName">
+      <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__a0dc550d156f4545975451ce3c5faf3a" type="Description">
+      <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_ad997ccd7e0f4f7bbc61cf8bae84ebca" />
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_82e7e5bf9977443d856cc726f9b0c2d4" />
+    <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__e1423e9a0a6e4ce2a8d679e537b50f64" x="100" y="100" />
+  </children>
+</notation:Diagram>
+

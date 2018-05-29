@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:ConformiqProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/models/2/project" name="TM_RevDemo" propertiesVersion="1001">
+  <designConfigurations name="DC" id="509f8bb31609d20534595ada46582dcc"/>
+  <projectProperties key="CreatorDataDistribution" value="false"/>
+  <projectProperties key="IntelligentTestCaseNaming" value="true"/>
+  <projectProperties key="LookAheadDepth" value="0"/>
+  <projectProperties key="MainActivityDiagram"/>
+  <projectProperties key="OnlyFinalizedRuns" value="false"/>
+  <projectProperties key="TestCaseIndexOffset" value="0"/>
+  <projectProperties key="TestCaseNamePrefix" value="Test Case "/>
+  <projectProperties key="TestCaseOrdering" value="CHRONOLOGICAL_SHORTEST_TEST_FIRST"/>
+  <projectProperties key="TestGenTimeLimit" value="10"/>
+  <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
+  <projectProperties key="TestSelection" value="FEWEST_TESTS"/>
+  <requirementProviders xmi:id="_H9zbQF6BEeiql4_uGCQTXg" identifier="com.conformiq.requirements.jira" name="JIRA Requirements()">
+    <properties key="&amp;Connect through proxy" value="false"/>
+    <properties key="&amp;Http proxy computer name"/>
+    <properties key="&amp;Http proxy domain name:"/>
+    <properties key="&amp;Http proxy host:"/>
+    <properties key="&amp;Http proxy password:"/>
+    <properties key="&amp;Http proxy port:"/>
+    <properties key="&amp;Http proxy username:"/>
+    <properties key="&amp;JIRA hostname:" value="yourdomain.atlassian.net"/>
+    <properties key="&amp;Naming template:" value="${key}: ${fields[&quot;summary&quot;]}"/>
+    <properties key="&amp;Password:"/>
+    <properties key="&amp;Project:"/>
+    <properties key="&amp;Username:"/>
+  </requirementProviders>
+</com.conformiq:ConformiqProject>

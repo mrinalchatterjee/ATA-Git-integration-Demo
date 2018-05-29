@@ -1,0 +1,1117 @@
+Wed May 23 17:28:41 IST 2018
+ INFO: Processing Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B....xls
+
+Wed May 23 17:28:41 IST 2018
+ INFO: Excel Read complete
+Wed May 23 17:28:41 IST 2018
+ INFO: Creating CTA XML file :Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B....xml
+Wed May 23 17:28:41 IST 2018
+ INFO: Processed CTA XML file :Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B....xml
+Wed May 23 17:28:42 IST 2018
+ INFO: Project Name :Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B
+
+------------------Test Analysis Report Begins----------
+
+Test Case Optimization:
+-------------------------------------------------------
+Tests Processed :
+Test 1: NEO 0044  Installation  Router   Accessories Page : 1 occurrence 
+Test 2: NEO_0100_Additional Information Page : 1 occurrence 
+Test 3: NEO 0044  Termin   Installation page : 1 occurrence 
+Test 4: NEO 0042_TV Configuration Page : 1 occurrence 
+Test 5: NEO 0043_Acess Page_Socket Known case : 1 occurrence 
+Test 6: NEO 0040  Overview Page : 1 occurrence 
+Test 7: NEO_OUT 1020_Get Best N Stack Billing Profile : 1 occurrence 
+Test 8: NEO 0041_VoIP Config : 1 occurrence 
+Test 9: MAP 1000_MAP Catalogue : 1 occurrence 
+Test 10: SBL 0256_Quote submission : 1 occurrence 
+Test 11: NEO 0096_ Move Summary Page : 1 occurrence 
+Test 12: NEO PR 0033_Configure Internet options : 1 occurrence 
+Test 13: Symphony_Login : 1 occurrence 
+Test 14: MAP_Enter address to Umzug meldung : 1 occurrence 
+Test 15: OBSOLETE_SBL 0131_Start Move : 1 occurrence 
+Test 16: Symphony_Activate CSU profile : 1 occurrence 
+Test 17: SBL 0070_Search Customer : 1 occurrence 
+Test 18: NEO_PR 0057_Prepare to submit Order : 1 occurrence 
+
+ - Reduction in Tests:  0%
+
+Input Action/Test Step Optimization :
+-------------------------------------------------------
+Total No of Test Steps : 0
+
+Verification Action/Expected result Optimization :
+-------------------------------------------------------
+Total No of Step Expected Results :0
+
+Generated Keywords:
+-------------------------------------------------------
+Total No of Keywords :75
+Keyword 1: Date description is displayed incase any options are deleted : 1
+Keyword 2: Preconditions We are on the summary page of Move scenario : 1
+Keyword 3: Submit the orderorder from NEO  as per the scenario requirements : 1
+Keyword 4: Verify the attribute  triggered by  is iFUF or Fixed date : 1
+Keyword 5: Speed profile should be displayed according to the tecnology and location chosed : 1
+Keyword 6: Verify that all the users can change the bill address unless it is not future dated : 1
+Keyword 7: No Manual Promotions for Teleclub and Canal  will be displayed for TV configuration page in URSA POS : 1
+Keyword 8: Verify below options to be displayed1  Bei mir wurde bereits eine Glasfasersteckdose installiert2 Bei mir wurde noch keine Glasfasersteckdose installiert3 Ich weiss nicht  ob bei mir schon eine Glasfasersteckdose installiert wurde : 1
+Keyword 9: Click  Continue  on Additional Infromation Page : 1
+Keyword 10: Verify the all available bundles in catalog page : 1
+Keyword 11: Select the type of socket from dropdown : 1
+Keyword 12: Optional Drill dow on  Router  component   enter discount amount and select the reason for discount  Note  Applicable for URSA Shop URSA POS DMC and CSU : 1
+Keyword 13: Verify that the payment method  the bill delivery and the billing address are returned by APP_SBL_INJDB_015 Get Best n stack Billing Profile   If there are several billing profiles   only agents can choose another existing N Stack billing profile or create an additional billing profile  For selfcare  show only the best n stack billing profile as today : 1
+Keyword 14: Verify Personal details : 1
+Keyword 15: Precondition User is on accessories page : 1
+Keyword 16: Click on the customer : 1
+Keyword 17: Click on continue : 1
+Keyword 18: Any order from channels   DMC   CSU   URSA POS   URSA Shop Select the form notification medium in which you would like to receive your order confirmationE Mail address is mandatory in the selfcare channel : 1
+Keyword 19: Any order from channels   DMC   CSU   URSA POS   URSA Shopselect existing bill with the payment method in case user the option  zur bestehenden Rechnung hingufugen : 1
+Keyword 20: Check activation fee move for for all channels : 1
+Keyword 21: Verify the TV Promotions and Language packs UHD hint are available in TV Configurations page : 1
+Keyword 22: For Use Case Bundle Switch with or with out ModificationSelect the required radio button : 1
+Keyword 23: In the Termin  amp  Instaaltion page  select the desired Installation and check the respective Price : 1
+Keyword 24: The Canal  National offer at CHF 35 month should be extended to 28 02 2017 : 1
+Keyword 25: Click on  Umzug  link under Addressen tab : 1
+Keyword 26: Click on  Weiter  button : 1
+Keyword 27: Enter new address you want to move to : 1
+Keyword 28: Select the connection you want to move to other location in contract applet and Click on  Umzug  button : 1
+Keyword 29: Verify the Customer Notification DetailsApplet CNO Configurator ViewNote Customer notification details should show correct correspondence address eMail address SMS number : 1
+Keyword 30: Click on  Validate  button : 1
+Keyword 31: Precondition  User is on Fesnetz Optionen page : 1
+Keyword 32: Validate  amp  Submit the Quote ID withDateNote  Perform Date Handling if required : 1
+Keyword 33: Choose the required connection and Click on button to perform scenario : 1
+Keyword 34: Precondition  User is on socket selection page : 1
+Keyword 35: Verify the Router or Kitis added for the technology line and price : 1
+Keyword 36: Optional IF require select any accessories bottom of the page router page : 1
+Keyword 37: Login to symphonyLogin Type : 1
+Keyword 38: Select Payment method and check or unchek email notification with the bill atached in case user selects the option  Eine separate Rechnung erhalten : 1
+Keyword 39: Login to Symphony : 1
+Keyword 40: Verify the main phone number of the bundle will be displayed or not : 1
+Keyword 41: Screen  Quotes  View  Quote SummaryCheck that the following preconditions are fulfilled   The activation deactivation date is set  A billing profile is set  The quote must contain at least one Line Item  If hardware  CPE  has to be shipped  the shipment address is set : 1
+Keyword 42: Verify that If the bill address returned by APP_SBL_INJDB_015 Get Best n stack Billing   current location address  pre default the bill address of this billing profile to the new location address  Leave the bill address of other billing profiles unchanged : 1
+Keyword 43: Canal plus promotion will not be displayed for a new customer : 1
+Keyword 44: Additional UHD TV STB Price visible in TV Config Page Add addition STB as per the requirement and proceed with ordering process : 1
+Keyword 45: Verify Internation Telephone options will be displayed : 1
+Keyword 46: Applet  AIP Quote Item XA ViewSubmit the Quote : 1
+Keyword 47: The Canal  DMC offer at CHF 29 month should be extended to 31 10  2017 : 1
+Keyword 48: Display router  phones and accessories : 1
+Keyword 49: Check delivery address displayed correctly : 1
+Keyword 50: Prerequisite  Search with the Quote ID from Application Name in the symphony : 1
+Keyword 51: For all Asset based Scenarios like Up Downgrade Move Deactivation check whether the Customer is having an E2E Contract : 1
+Keyword 52: Prerequisite Make sure that exisitng connection number you want to move and address are dsiplayed correctly : 1
+Keyword 53: Select the Required TV Options and Click on  Continue  ButtonNote Delete or Add the Tv options as per the Scenerio Mentioned especially for Bundle Component Modification : 1
+Keyword 54: In case of bundle Modification Move secnario  check If multipleAccesses is true display selected Asset on Summary and Confirmation Pages : 1
+Keyword 55: Create New Swisscom Customer  or  Search with existing customer1  Login to Symphony2  Search for any segmenttype stack of Swisscom Customer of withValue attributes Search and Fixline with ServicesFor NesaNesa : 1
+Keyword 56: Select a bundle and click on order : 1
+Keyword 57: Enter contact details like mobile number and email and save : 1
+Keyword 58: Click on Continue button : 1
+Keyword 59: Precondition  Make Sure Login account has CSU profile previleges  If not order to TIF team to get CSU previleges : 1
+Keyword 60: Optional Drill down on OSI  enter discount amount and select the reason for discount  Note  Applicable for URSA Shop  DMC and CSU : 1
+Keyword 61: Canal  wording should be 6x channels HD instead of 10x : 1
+Keyword 62: Select the required internet options and Click on  Continue  ButtonNote Configure the Internet options for Bundle Component Modification Scenerio s as per the Requirement : 1
+Keyword 63: To activate CSU profile Go to tools  user preference  Check the NEO Processes flag and save the changes : 1
+Keyword 64: Verify the details components of the Bundle ordered and the corresponding prices  including the icons and the Component Names  for any Use case : 1
+Keyword 65: Based on the Installation chosen  select the desired Appointment date  Not applicable to SelfInstallation : 1
+Keyword 66: Click on continue button : 1
+Keyword 67: For Use case  MoveSelect CWD  Customer Wishdate  and a OLDD  Old Line Deactivation Date Note  The Old line deactivation date should be before the new line activation date OLDD   CWD : 1
+Keyword 68: Optional Select international telephone option International Telephone option : 1
+Keyword 69: Select the option  Bei mir wurde bereits eine Glasfasersteckdose installiert : 1
+Keyword 70: Any order from channels   DMC   CSU   URSA POS   URSA Shop and customer has exising bill Select Zustellart definieren bill optionNote In KuCee   Eine separate Rechnung erhalten  should not be displayed : 1
+Keyword 71: Optional Select number of phone numbers number of phone numbers : 1
+Keyword 72: Optional If requird select any phones phone : 1
+Keyword 73: Click on button button to perform scenario : 1
+Keyword 74: Optional Drill dow on  activation fee move  component   enter discount amount and select the reason for discountNote  Applicable for URSA Shop  DMC and CSU : 1
+Keyword 75: OptionalCWD is displayed on VOIP Config page for Modification scenarios : 1
+
+Requirement Coverage:
+-------------------------------------------------------
+Total No of Covered Requirements :0
+
+-------------------------------------------------------
+
+Test suite optimization during import:
+ - Reduction in Tests:  0%
+
+------------------Test Analysis Report Ends------------
+
+Wed May 23 17:28:42 IST 2018
+ INFO: testsuite Test Scenario Test Report , allElements size : 76
+Wed May 23 17:28:42 IST 2018
+ INFO: updateConnections allElements size: 96
+Wed May 23 17:28:42 IST 2018
+ INFO: updateConnections allConnectors size: 95
+Wed May 23 17:28:43 IST 2018
+ INFO: UpdateDecisiontoEvent allElements size: 96
+Wed May 23 17:28:43 IST 2018
+ INFO: UpdateDecisiontoEvent allConnectors size: 95
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 'The list with (without) customers is delivered
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Create New Swisscom Customer (or) Search with existing customer1. Login to Symphony2. Search for any segmenttype stack of Swisscom Customer of withValue attributes Search and Fixline with ServicesFor NesaNesa
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Overview page of the customer is displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on the customer
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: should display the all bundle information
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the all available bundles in catalog page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: should navigate to NEO page and NEO init deeplink will be generated
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select a bundle and click on order
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should verify the speed profile on the location chosed and legal text .
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Speed profile should be displayed according to the tecnology and location chosed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should display the correct details
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the details/components of the Bundle ordered and the corresponding prices (including the icons and the Component Names) for any Use case
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should able to select the radio button.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : For Use Case:Bundle Switch with or with out ModificationSelect the required radio button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigate to correct page based on Use case
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on \"Weiter\" button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition:User is on accessories page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should display the devices, Router and accesories details
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Display router, phones and accessories
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Router or Kitdetails should display correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the Router or Kitis added for the technology line and price
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select accessories and price should display correctly.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:IF require select any accessories bottom of the page router page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select phone and price should display correctly.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:If requird select any phones phone
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Login sholud be Successful
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Login to symphonyLogin Type
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Customer Should have an E2E order Successfull.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : For all Asset based Scenarios like Up/Downgrade,Move,Deactivation check whether the Customer is having an E2E Contract.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Login account has CSU profile previleges.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition: Make Sure Login account has CSU profile previleges. If not order to TIF team to get CSU previleges
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Login successful
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Login to Symphony
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Changes are saved successfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : To activate CSU profile Go to tools--user preference--Check the NEO Processes flag and save the changes
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Prerequisite:Make sure that exisitng connection number you want to move and address are dsiplayed correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to enter address details
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Enter new address you want to move to
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigation should be possible
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on button button to perform scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should be able to place the order without any error
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Submit the orderorder from NEO, as per the scenario requirements
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Search with Quote iD in symphony successfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Prerequisite: Search with the Quote ID from Application Name in the symphony.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Customer Notification details exists as expected
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the Customer Notification DetailsApplet:CNO Configurator ViewNote:Customer notification details should show correct correspondence address/eMail address/SMS number.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The preconditions are fulfilled.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Screen: Quotes; View: Quote SummaryCheck that the following preconditions are fulfilled.- The activation/deactivation date is set- A billing profile is set- The quote must contain at least one Line Item- If hardware (CPE) has to be shipped, the shipment address is set
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Quote should be validated successfully .-Validated Flag should be checked Note:If Quote validation is failing,it throws error popup messages then please check respective steps and validate the quote again
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on \"Validate\" button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Quote is submitted successfullyCheck that the quote status changes to „Order Placed“, and the order status changes to „Submitted“
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Applet: AIP Quote Item XA ViewSubmit the Quote
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Triggered by attribute value should be either iFUF or Fixed date depending upon the scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the attribute \"triggered by\" is iFUF or Fixed date
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should be done successfully and Order should get placed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Validate &amp; Submit the Quote ID withDateNote: Perform Date Handling if required
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Personal details should display correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify Personal details
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Contact details are saved sucessfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Enter contact details like mobile number and email and save
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: \"E-Mail\" and \"Letter\" options should be available as the notification medium for the detailed confirmation.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Any order from channels : DMC , CSU , URSA POS , URSA Shop Select the form notification medium in which you would like to receive your order confirmationE-Mail address is mandatory in the selfcare channel.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select the payment delivery type
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Any order from channels : DMC , CSU , URSA POS , URSA Shop and customer has exising bill.Select Zustellart definieren bill optionNote:In KuCee, \"Eine separate Rechnung erhalten\" should not be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select the existing bill
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Any order from channels : DMC , CSU , URSA POS , URSA Shopselect existing bill with the payment method in case user the option \"zur bestehenden Rechnung hingufugen\"
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select the payment method
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select Payment method and check or unchek email notification with the bill atached in case user selects the option \"Eine separate Rechnung erhalten\"
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Summary Page will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click \"Continue\" on Additional Infromation Page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Preconditions:We are on the summary page of Move scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Selected assset should be displyed on summary and confirmation pages
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : In case of bundle Modification Move secnario, check If multipleAccesses is true display selected Asset on Summary and Confirmation Pages.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 43 chf should display for activation fee move in summary page
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Check activation fee move for for all channels.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price waiving shall be possible for activation fee move
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Drill dow on \"activation fee move\" component , enter discount amount and select the reason for discountNote: Applicable for URSA Shop, DMC and CSU
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price waiving shall be possible for Router
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Drill dow on \"Router\" component , enter discount amount and select the reason for discount. Note: Applicable for URSA Shop,URSA POS,DMC and CSU
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price waiving shall be possible for OSI
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Drill down on OSI, enter discount amount and select the reason for discount. Note: Applicable for URSA Shop, DMC and CSU
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: DE: Inklusiveinheiten verfallen, wenn sie bis zum Ausführungsdatum nicht genutzt werden.FR: Les minutes incluses, qui n’auront pas été utilisées à la date d’exécution seront perduesEN: The included minutes, which would not have been consumed at the date of execution will be lostIT: I minuti inclusi verranno persi se non utilizzati entro la data di esecuzione
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Date description is displayed incase any options are deleted
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Delivery address should display correctly.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Check delivery address displayed correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should display the Installaltion details and its price correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : In the Termin &amp; Instaaltion page, select the desired Installation and check the respective Price
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The appointment should be selected successfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Based on the Installation chosen, select the desired Appointment date (Not applicable to SelfInstallation)
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should be able to select the dates for new access activation and old access deactivation.Dates are accepted only if OLDD = CWD , else the below error message should be displayed.DE: Bitte geben Sie einen Einschalttermin ein, der zeitlich nach dem Ausschalttermin liegt.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : For Use case :MoveSelect CWD (Customer Wishdate) and a OLDD (Old Line Deactivation Date)Note: The Old line deactivation date should be before the new line activation date(OLDD = CWD )
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Additonal information page is displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on continue
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Billing profile details are displayed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify that the payment method, the bill delivery and the billing address are returned by APP_SBL_INJDB_015 Get Best n-stack Billing Profile . If there are several billing profiles , only agents can choose another existing N-Stack billing profile or create an additional billing profile. For selfcare, show only the best n-stack billing profile as today.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: When billing address is different it is changed and the address for remaining profiles is same.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify that If the bill address returned by APP_SBL_INJDB_015 Get Best n-stack Billing = current location address, pre-default the bill address of this billing profile to the new location address. Leave the bill address of other billing profiles unchanged.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Bill address can be changed if it is not future dated.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify that all the users can change the bill address unless it is not future dated.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Respective Page Will be displayed as per the use case will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the required internet options and Click on 'Continue' ButtonNote:Configure the Internet options for Bundle Component Modification Scenerio's as per the Requirement
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Required page will be displayed Based on the Use case
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the Required TV Options and Click on 'Continue' ButtonNote:Delete or Add the Tv options as per the Scenerio Mentioned especially for Bundle Component Modification
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: TV Promotions and Language packs,UHD hint are available in TV Configurations page.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the TV Promotions and Language packs,UHD hint are available in TV Configurations page.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: No Manual Promotions for Teleclub and Canal+ will be displayed for TV configuration page in URSA POSShould be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : No Manual Promotions for Teleclub and Canal+ will be displayed for TV configuration page in URSA POS.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Canal plus promotion will not be displayed for a new customerShould be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Canal plus promotion will not be displayed for a new customer
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The Canal+ National offer at CHF 35/month should be extended to 28.02.2017Should be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : The Canal+ National offer at CHF 35/month should be extended to 28.02.2017
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The Canal+ DMC offer at CHF 29/month should be extended to 31.10. 2017Should be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : The Canal+ DMC offer at CHF 29/month should be extended to 31.10. 2017
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should be dispalyed as expected
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Canal+ wording should be 6x channels HD instead of 10x
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price for the additional STB Price should be calculated and visible in TV Config page
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Additional UHD TV STB Price visible in TV Config Page.Add addition STB as per the requirement and proceed with ordering process
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition: User is on Fesnetz Optionen page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Phone number of the bundle should be displayed.Note:No Phone Number should be displayed on NEO VOIP Configuration Page when ZNV is down.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the main phone number of the bundle will be displayed or not.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: number of phone numbers should be added
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Select number of phone numbers number of phone numbers
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Internation Telephone options will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify Internation Telephone options will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: International Telephone option should be added
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Select international telephone option International Telephone option
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should be able to select activation date
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : OptionalCWD is displayed on VOIP Config page for Modification scenarios
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigates to correct page based on use case.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on continue button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition: User is on socket selection page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Specified options should display.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify below options to be displayed1. Bei mir wurde bereits eine Glasfasersteckdose installiert2.Bei mir wurde noch keine Glasfasersteckdose installiert3.Ich weiss nicht, ob bei mir schon eine Glasfasersteckdose installiert wurde
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Dropdown with avilalble fiber ready and OTO ready sockets in the address should display
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the option \"Bei mir wurde bereits eine Glasfasersteckdose installiert\"
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Line status should display below the dropdown for URSA Shop,CSU and DMC agents.As Per the Socket the below Message will be Displayed Message
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the type of socket from dropdown.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Installation page should display
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on Continue button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigates to Addressen tab.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the connection you want to move to other location in contract applet and Click on \"Umzug\" button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Existing connections details of the customer will be displayed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on \"Umzug\" link under Addressen tab
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigates to MAP if NEO proces flag is checked.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Choose the required connection and Click on button to perform scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 'The list with (without) customers is delivered
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Create New Swisscom Customer (or) Search with existing customer1. Login to Symphony2. Search for any segmenttype stack of Swisscom Customer of withValue attributes Search and Fixline with ServicesFor NesaNesa
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Overview page of the customer is displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on the customer
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: should display the all bundle information
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the all available bundles in catalog page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: should navigate to NEO page and NEO init deeplink will be generated
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select a bundle and click on order
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should verify the speed profile on the location chosed and legal text .
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Speed profile should be displayed according to the tecnology and location chosed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should display the correct details
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the details/components of the Bundle ordered and the corresponding prices (including the icons and the Component Names) for any Use case
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should able to select the radio button.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : For Use Case:Bundle Switch with or with out ModificationSelect the required radio button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigate to correct page based on Use case
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on \"Weiter\" button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition:User is on accessories page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should display the devices, Router and accesories details
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Display router, phones and accessories
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Router or Kitdetails should display correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the Router or Kitis added for the technology line and price
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select accessories and price should display correctly.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:IF require select any accessories bottom of the page router page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select phone and price should display correctly.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:If requird select any phones phone
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Login sholud be Successful
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Login to symphonyLogin Type
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Customer Should have an E2E order Successfull.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : For all Asset based Scenarios like Up/Downgrade,Move,Deactivation check whether the Customer is having an E2E Contract.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Login account has CSU profile previleges.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition: Make Sure Login account has CSU profile previleges. If not order to TIF team to get CSU previleges
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Login successful
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Login to Symphony
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Changes are saved successfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : To activate CSU profile Go to tools--user preference--Check the NEO Processes flag and save the changes
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Prerequisite:Make sure that exisitng connection number you want to move and address are dsiplayed correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to enter address details
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Enter new address you want to move to
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigation should be possible
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on button button to perform scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should be able to place the order without any error
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Submit the orderorder from NEO, as per the scenario requirements
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Search with Quote iD in symphony successfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Prerequisite: Search with the Quote ID from Application Name in the symphony.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Customer Notification details exists as expected
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the Customer Notification DetailsApplet:CNO Configurator ViewNote:Customer notification details should show correct correspondence address/eMail address/SMS number.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The preconditions are fulfilled.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Screen: Quotes; View: Quote SummaryCheck that the following preconditions are fulfilled.- The activation/deactivation date is set- A billing profile is set- The quote must contain at least one Line Item- If hardware (CPE) has to be shipped, the shipment address is set
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Quote should be validated successfully .-Validated Flag should be checked Note:If Quote validation is failing,it throws error popup messages then please check respective steps and validate the quote again
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on \"Validate\" button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Quote is submitted successfullyCheck that the quote status changes to „Order Placed“, and the order status changes to „Submitted“
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Applet: AIP Quote Item XA ViewSubmit the Quote
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Triggered by attribute value should be either iFUF or Fixed date depending upon the scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the attribute \"triggered by\" is iFUF or Fixed date
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should be done successfully and Order should get placed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Validate &amp; Submit the Quote ID withDateNote: Perform Date Handling if required
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Personal details should display correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify Personal details
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Contact details are saved sucessfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Enter contact details like mobile number and email and save
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: \"E-Mail\" and \"Letter\" options should be available as the notification medium for the detailed confirmation.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Any order from channels : DMC , CSU , URSA POS , URSA Shop Select the form notification medium in which you would like to receive your order confirmationE-Mail address is mandatory in the selfcare channel.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select the payment delivery type
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Any order from channels : DMC , CSU , URSA POS , URSA Shop and customer has exising bill.Select Zustellart definieren bill optionNote:In KuCee, \"Eine separate Rechnung erhalten\" should not be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select the existing bill
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Any order from channels : DMC , CSU , URSA POS , URSA Shopselect existing bill with the payment method in case user the option \"zur bestehenden Rechnung hingufugen\"
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Able to select the payment method
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select Payment method and check or unchek email notification with the bill atached in case user selects the option \"Eine separate Rechnung erhalten\"
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Summary Page will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click \"Continue\" on Additional Infromation Page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Preconditions:We are on the summary page of Move scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Selected assset should be displyed on summary and confirmation pages
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : In case of bundle Modification Move secnario, check If multipleAccesses is true display selected Asset on Summary and Confirmation Pages.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 43 chf should display for activation fee move in summary page
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Check activation fee move for for all channels.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price waiving shall be possible for activation fee move
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Drill dow on \"activation fee move\" component , enter discount amount and select the reason for discountNote: Applicable for URSA Shop, DMC and CSU
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price waiving shall be possible for Router
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Drill dow on \"Router\" component , enter discount amount and select the reason for discount. Note: Applicable for URSA Shop,URSA POS,DMC and CSU
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price waiving shall be possible for OSI
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Drill down on OSI, enter discount amount and select the reason for discount. Note: Applicable for URSA Shop, DMC and CSU
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: DE: Inklusiveinheiten verfallen, wenn sie bis zum Ausführungsdatum nicht genutzt werden.FR: Les minutes incluses, qui n’auront pas été utilisées à la date d’exécution seront perduesEN: The included minutes, which would not have been consumed at the date of execution will be lostIT: I minuti inclusi verranno persi se non utilizzati entro la data di esecuzione
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Date description is displayed incase any options are deleted
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Delivery address should display correctly.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Check delivery address displayed correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should display the Installaltion details and its price correctly
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : In the Termin &amp; Instaaltion page, select the desired Installation and check the respective Price
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The appointment should be selected successfully
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Based on the Installation chosen, select the desired Appointment date (Not applicable to SelfInstallation)
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should be able to select the dates for new access activation and old access deactivation.Dates are accepted only if OLDD = CWD , else the below error message should be displayed.DE: Bitte geben Sie einen Einschalttermin ein, der zeitlich nach dem Ausschalttermin liegt.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : For Use case :MoveSelect CWD (Customer Wishdate) and a OLDD (Old Line Deactivation Date)Note: The Old line deactivation date should be before the new line activation date(OLDD = CWD )
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Additonal information page is displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on continue
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Billing profile details are displayed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify that the payment method, the bill delivery and the billing address are returned by APP_SBL_INJDB_015 Get Best n-stack Billing Profile . If there are several billing profiles , only agents can choose another existing N-Stack billing profile or create an additional billing profile. For selfcare, show only the best n-stack billing profile as today.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: When billing address is different it is changed and the address for remaining profiles is same.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify that If the bill address returned by APP_SBL_INJDB_015 Get Best n-stack Billing = current location address, pre-default the bill address of this billing profile to the new location address. Leave the bill address of other billing profiles unchanged.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Bill address can be changed if it is not future dated.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify that all the users can change the bill address unless it is not future dated.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Respective Page Will be displayed as per the use case will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the required internet options and Click on 'Continue' ButtonNote:Configure the Internet options for Bundle Component Modification Scenerio's as per the Requirement
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Required page will be displayed Based on the Use case
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the Required TV Options and Click on 'Continue' ButtonNote:Delete or Add the Tv options as per the Scenerio Mentioned especially for Bundle Component Modification
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: TV Promotions and Language packs,UHD hint are available in TV Configurations page.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the TV Promotions and Language packs,UHD hint are available in TV Configurations page.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: No Manual Promotions for Teleclub and Canal+ will be displayed for TV configuration page in URSA POSShould be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : No Manual Promotions for Teleclub and Canal+ will be displayed for TV configuration page in URSA POS.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Canal plus promotion will not be displayed for a new customerShould be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Canal plus promotion will not be displayed for a new customer
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The Canal+ National offer at CHF 35/month should be extended to 28.02.2017Should be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : The Canal+ National offer at CHF 35/month should be extended to 28.02.2017
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: The Canal+ DMC offer at CHF 29/month should be extended to 31.10. 2017Should be dispalyed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : The Canal+ DMC offer at CHF 29/month should be extended to 31.10. 2017
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Should be dispalyed as expected
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Canal+ wording should be 6x channels HD instead of 10x
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Price for the additional STB Price should be calculated and visible in TV Config page
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Additional UHD TV STB Price visible in TV Config Page.Add addition STB as per the requirement and proceed with ordering process
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition: User is on Fesnetz Optionen page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Phone number of the bundle should be displayed.Note:No Phone Number should be displayed on NEO VOIP Configuration Page when ZNV is down.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify the main phone number of the bundle will be displayed or not.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: number of phone numbers should be added
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Select number of phone numbers number of phone numbers
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Internation Telephone options will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify Internation Telephone options will be displayed
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: International Telephone option should be added
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Optional:Select international telephone option International Telephone option
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: User should be able to select activation date
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : OptionalCWD is displayed on VOIP Config page for Modification scenarios
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigates to correct page based on use case.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on continue button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Precondition: User is on socket selection page
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Specified options should display.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Verify below options to be displayed1. Bei mir wurde bereits eine Glasfasersteckdose installiert2.Bei mir wurde noch keine Glasfasersteckdose installiert3.Ich weiss nicht, ob bei mir schon eine Glasfasersteckdose installiert wurde
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Dropdown with avilalble fiber ready and OTO ready sockets in the address should display
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the option \"Bei mir wurde bereits eine Glasfasersteckdose installiert\"
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Line status should display below the dropdown for URSA Shop,CSU and DMC agents.As Per the Socket the below Message will be Displayed Message
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the type of socket from dropdown.
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Installation page should display
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on Continue button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigates to Addressen tab.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Select the connection you want to move to other location in contract applet and Click on \"Umzug\" button
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Existing connections details of the customer will be displayed.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Click on \"Umzug\" link under Addressen tab
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: Navigates to MAP if NEO proces flag is checked.
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : Choose the required connection and Click on button to perform scenario
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: element actionText: 
+Wed May 23 17:28:43 IST 2018
+ INFO: element observationText : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: seqFlow : 
+Wed May 23 17:28:43 IST 2018
+ INFO: CreateActivities allElements size: 96
+Wed May 23 17:28:43 IST 2018
+ INFO: CreateActivities allConnectors size: 95
+Wed May 23 17:28:43 IST 2018
+ INFO: Excel convertion result: true
+Wed May 23 17:28:43 IST 2018
+ INFO: Following 1 out of 1 Excel files have been successfully imported.
+- Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B....xls
+
+Test suite optimization during import:
+ - Reduction in Tests:  0%
+

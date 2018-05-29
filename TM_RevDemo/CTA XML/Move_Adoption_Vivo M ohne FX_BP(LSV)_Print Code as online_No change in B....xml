@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project id="be1ca74956224b5bacd3ad99bc9ccdf2" name="Move_Adoption_Vivo M ohne FX_BP(LSV)_Print Code as online_No change in B" dbversion="2">
+  <autoconfig>
+    <automationtype id="966f90155b9c4083b78e9500699f2959" name="Selenium" content="Object, Locator Type, Action, Value, Run, Verdict" />
+    <automationtype id="59555b4e3ef74b99b6fee1c4cee46db9" name="QTP" content="Object, Action, Value, Run, Verdict" />
+  </autoconfig>
+  <requirements />
+  <keywords>
+    <keyword id="364b2ec1fd4c4b9aa91f0427592201a0" name="Create New Swisscom Customer  or  Search with existing customer1  Login to Symphony2  Search for any segmenttype stack of Swisscom Customer of withValue attributes Search and Fixline with ServicesFor NesaNesa" type="Automatic">
+      <parameters />
+      <description>
+        <step id="9a70c6ed39b944c99898bddf64af8e12" seqno="1">
+          <action>'The list with (without) customers is delivered</action>
+          <observation>Create New Swisscom Customer (or) Search with existing customer1. Login to Symphony2. Search for any segmenttype stack of Swisscom Customer of withValue attributes Search and Fixline with ServicesFor NesaNesa</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="5e9ed46a3da647b1802588ae4ad37c4c" name="Click on the customer" type="Automatic">
+      <parameters />
+      <description>
+        <step id="6ab53a61a6c844d58754883d02dc6a84" seqno="1">
+          <action>Overview page of the customer is displayed</action>
+          <observation>Click on the customer</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="b07d909914e349e398f7f4f1ffde0589" name="Verify the all available bundles in catalog page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="a64e7415bf54430183f457de703a2bb5" seqno="1">
+          <action>should display the all bundle information</action>
+          <observation>Verify the all available bundles in catalog page</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="b3f2e766949748b7a781018f22038ff8" name="Select a bundle and click on order" type="Automatic">
+      <parameters />
+      <description>
+        <step id="a16aa6691ac544de98fc2f346b77222f" seqno="1">
+          <action>should navigate to NEO page and NEO init deeplink will be generated</action>
+          <observation>Select a bundle and click on order</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="c13cb990fda74275a76a55eef5ae1d19" name="Speed profile should be displayed according to the tecnology and location chosed" type="Automatic">
+      <parameters />
+      <description>
+        <step id="f366273ab60c43508137ad4e7fd20beb" seqno="1">
+          <action>Should verify the speed profile on the location chosed and legal text .</action>
+          <observation>Speed profile should be displayed according to the tecnology and location chosed.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="f5be5bca141e44af8fa3af1b3e945714" name="Verify the details components of the Bundle ordered and the corresponding prices  including the icons and the Component Names  for any Use case" type="Automatic">
+      <parameters />
+      <description>
+        <step id="145a2beab9ae422cb7f0145bb2cba1cf" seqno="1">
+          <action>Should display the correct details</action>
+          <observation>Verify the details/components of the Bundle ordered and the corresponding prices (including the icons and the Component Names) for any Use case</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="d2e30a63bb694a749993e00b21bf1a68" name="For Use Case Bundle Switch with or with out ModificationSelect the required radio button" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0571fe40d12f43ae9ce3c54eb572b2fe" seqno="1">
+          <action>User should able to select the radio button.</action>
+          <observation>For Use Case:Bundle Switch with or with out ModificationSelect the required radio button</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="3211febd6d9e489685a21c902a192866" name="Click on  Weiter  button" type="Automatic">
+      <parameters />
+      <description>
+        <step id="443636be0f144588adf9d2f192fa4f80" seqno="1">
+          <action>Navigate to correct page based on Use case</action>
+          <observation>Click on "Weiter" button</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="4bf98348e19e4238a3caf2bb4cce6b2f" name="Precondition User is on accessories page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="2fb96e9eab354064a591d940569fc435" seqno="1">
+          <action />
+          <observation>Precondition:User is on accessories page</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="c01c18d8c2244d849c6549816e7422a4" name="Display router  phones and accessories" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0539d565521346feb3050f00b9a37cdf" seqno="1">
+          <action>Should display the devices, Router and accesories details</action>
+          <observation>Display router, phones and accessories</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="7f34d4b7f87f4d9984960d4d6f9341f9" name="Verify the Router or Kitis added for the technology line and price" type="Automatic">
+      <parameters />
+      <description>
+        <step id="5491f36a3b8e462dbb3abcf83f100187" seqno="1">
+          <action>Router or Kitdetails should display correctly</action>
+          <observation>Verify the Router or Kitis added for the technology line and price</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="46d3629ba2ea49b883995657c153f8fc" name="Optional IF require select any accessories bottom of the page router page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="e3ace635d5dc4dd9bcaf2ad21e222099" seqno="1">
+          <action>Able to select accessories and price should display correctly.</action>
+          <observation>Optional:IF require select any accessories bottom of the page router page</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="2ac3939e28f64ad28346e84c67139fc0" name="Optional If requird select any phones phone" type="Automatic">
+      <parameters />
+      <description>
+        <step id="60e01bd08ef741208eabea6575b8d0e0" seqno="1">
+          <action>Able to select phone and price should display correctly.</action>
+          <observation>Optional:If requird select any phones phone</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="19dd5da4cc8c4f0786f908a9bd1e04f9" name="Login to symphonyLogin Type" type="Automatic">
+      <parameters />
+      <description>
+        <step id="528185d27e464d0c9247c7104cc9d89a" seqno="1">
+          <action>Login sholud be Successful</action>
+          <observation>Login to symphonyLogin Type</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="91a9317f2ee244d1b4d057af10a7a5b3" name="For all Asset based Scenarios like Up Downgrade Move Deactivation check whether the Customer is having an E2E Contract" type="Automatic">
+      <parameters />
+      <description>
+        <step id="c158334846854cc5b74aeef9468f18e0" seqno="1">
+          <action>Customer Should have an E2E order Successfull.</action>
+          <observation>For all Asset based Scenarios like Up/Downgrade,Move,Deactivation check whether the Customer is having an E2E Contract.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="573a63093d344de6a749483452ecf462" name="Precondition  Make Sure Login account has CSU profile previleges  If not order to TIF team to get CSU previleges" type="Automatic">
+      <parameters />
+      <description>
+        <step id="1322d2a88a7748aca7b1af2126fdb4a9" seqno="1">
+          <action>Login account has CSU profile previleges.</action>
+          <observation>Precondition: Make Sure Login account has CSU profile previleges. If not order to TIF team to get CSU previleges</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="8c90be718e2e4058b5039c072f699212" name="Login to Symphony" type="Automatic">
+      <parameters />
+      <description>
+        <step id="6abced385077488cb5d3d5b16a67051c" seqno="1">
+          <action>Login successful</action>
+          <observation>Login to Symphony</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="feb7c5676ae94a00939cfbadb92dbd47" name="To activate CSU profile Go to tools  user preference  Check the NEO Processes flag and save the changes" type="Automatic">
+      <parameters />
+      <description>
+        <step id="7dc3fcf526cd4619becf0e5cab791d53" seqno="1">
+          <action>Changes are saved successfully</action>
+          <observation>To activate CSU profile Go to tools--user preference--Check the NEO Processes flag and save the changes</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="a37394a494fa4ac0ae9d8ba77d7635aa" name="Prerequisite Make sure that exisitng connection number you want to move and address are dsiplayed correctly" type="Automatic">
+      <parameters />
+      <description>
+        <step id="3cecd6e9dc1b47d5a03aa400f188d9ab" seqno="1">
+          <action />
+          <observation>Prerequisite:Make sure that exisitng connection number you want to move and address are dsiplayed correctly</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="edee4cf128cd47f3856ea3212b93ccfd" name="Enter new address you want to move to" type="Automatic">
+      <parameters />
+      <description>
+        <step id="33b400be7a6742f3ba8af65e4d84de15" seqno="1">
+          <action>Able to enter address details</action>
+          <observation>Enter new address you want to move to</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="4545864833d24a9fbc0e739dd70f9e68" name="Click on button button to perform scenario" type="Automatic">
+      <parameters />
+      <description>
+        <step id="3392ee5f1e6142029b7958857232a8f3" seqno="1">
+          <action>Navigation should be possible</action>
+          <observation>Click on button button to perform scenario</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="42ece159f5df45aaa739d88db7d39813" name="Submit the orderorder from NEO  as per the scenario requirements" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0c2c671584ab4a5ca18b78510a2c54e9" seqno="1">
+          <action>User should be able to place the order without any error</action>
+          <observation>Submit the orderorder from NEO, as per the scenario requirements</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="90e254ccb5c84fdab0fc3335e87c5db9" name="Prerequisite  Search with the Quote ID from Application Name in the symphony" type="Automatic">
+      <parameters />
+      <description>
+        <step id="4bc293419d3b4907aaad1110674fe115" seqno="1">
+          <action>Search with Quote iD in symphony successfully</action>
+          <observation>Prerequisite: Search with the Quote ID from Application Name in the symphony.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="a01e23c2073b4a6f961eca322cf18da7" name="Verify the Customer Notification DetailsApplet CNO Configurator ViewNote Customer notification details should show correct correspondence address eMail address SMS number" type="Automatic">
+      <parameters />
+      <description>
+        <step id="141a30c3bd9546d39f302de84fd287ea" seqno="1">
+          <action>Customer Notification details exists as expected</action>
+          <observation>Verify the Customer Notification DetailsApplet:CNO Configurator ViewNote:Customer notification details should show correct correspondence address/eMail address/SMS number.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="05600069b8024fa2a690f2b957fa2703" name="Screen  Quotes  View  Quote SummaryCheck that the following preconditions are fulfilled   The activation deactivation date is set  A billing profile is set  The quote must contain at least one Line Item  If hardware  CPE  has to be shipped  the shipment address is set" type="Automatic">
+      <parameters />
+      <description>
+        <step id="c2753bc7b3d24cc290820d74fa5b43e5" seqno="1">
+          <action>The preconditions are fulfilled.</action>
+          <observation>Screen: Quotes; View: Quote SummaryCheck that the following preconditions are fulfilled.- The activation/deactivation date is set- A billing profile is set- The quote must contain at least one Line Item- If hardware (CPE) has to be shipped, the shipment address is set</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="74db18864afd413a87a9a31a1b9a55fd" name="Click on  Validate  button" type="Automatic">
+      <parameters />
+      <description>
+        <step id="f92a13ad57fa4e0f933156d4feb9b68a" seqno="1">
+          <action>Quote should be validated successfully .-Validated Flag should be checked Note:If Quote validation is failing,it throws error popup messages then please check respective steps and validate the quote again</action>
+          <observation>Click on "Validate" button</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="091585850f564079a090ad4b3ecb62b6" name="Applet  AIP Quote Item XA ViewSubmit the Quote" type="Automatic">
+      <parameters />
+      <description>
+        <step id="98cbfc27e44f42a99a47775e5abe7149" seqno="1">
+          <action>Quote is submitted successfullyCheck that the quote status changes to „Order Placed“, and the order status changes to „Submitted“</action>
+          <observation>Applet: AIP Quote Item XA ViewSubmit the Quote</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="5233c038ed6841c9a6be8be5c68236ed" name="Verify the attribute  triggered by  is iFUF or Fixed date" type="Automatic">
+      <parameters />
+      <description>
+        <step id="2f311e3e31e2468990e3c9eaabd28ff0" seqno="1">
+          <action>Triggered by attribute value should be either iFUF or Fixed date depending upon the scenario</action>
+          <observation>Verify the attribute "triggered by" is iFUF or Fixed date</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="d2fccd70f3494cf9bc2ef2bdef69de01" name="Validate  amp  Submit the Quote ID withDateNote  Perform Date Handling if required" type="Automatic">
+      <parameters />
+      <description>
+        <step id="1a49f268df6240f7b3ba5beeabbf864c" seqno="1">
+          <action>Should be done successfully and Order should get placed.</action>
+          <observation>Validate &amp;amp; Submit the Quote ID withDateNote: Perform Date Handling if required</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="c242ce66c11a4a888a3abefcaf422cda" name="Verify Personal details" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0212091a7a81479bb6fc067cf641d1ec" seqno="1">
+          <action>Personal details should display correctly</action>
+          <observation>Verify Personal details</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="e014328fb9a149938ed1bb9a5930e965" name="Enter contact details like mobile number and email and save" type="Automatic">
+      <parameters />
+      <description>
+        <step id="36ef02e34af54dd6825740d8fb527bed" seqno="1">
+          <action>Contact details are saved sucessfully</action>
+          <observation>Enter contact details like mobile number and email and save</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="0edeab026dc54e7bb7d78b6352025cf0" name="Any order from channels   DMC   CSU   URSA POS   URSA Shop Select the form notification medium in which you would like to receive your order confirmationE Mail address is mandatory in the selfcare channel" type="Automatic">
+      <parameters />
+      <description>
+        <step id="394c9f4762114cefb4eb40e00611dd49" seqno="1">
+          <action>"E-Mail" and "Letter" options should be available as the notification medium for the detailed confirmation.</action>
+          <observation>Any order from channels : DMC , CSU , URSA POS , URSA Shop Select the form notification medium in which you would like to receive your order confirmationE-Mail address is mandatory in the selfcare channel.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="9e3acc8d535d4a8b8faf080c9dd9ea72" name="Any order from channels   DMC   CSU   URSA POS   URSA Shop and customer has exising bill Select Zustellart definieren bill optionNote In KuCee   Eine separate Rechnung erhalten  should not be displayed" type="Automatic">
+      <parameters />
+      <description>
+        <step id="a8360d6c8f014689bd2340200e2d674d" seqno="1">
+          <action>Able to select the payment delivery type</action>
+          <observation>Any order from channels : DMC , CSU , URSA POS , URSA Shop and customer has exising bill.Select Zustellart definieren bill optionNote:In KuCee, "Eine separate Rechnung erhalten" should not be displayed</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="f66ae49631f74c27b57a2828ffef7a00" name="Any order from channels   DMC   CSU   URSA POS   URSA Shopselect existing bill with the payment method in case user the option  zur bestehenden Rechnung hingufugen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="595a325c71d04276997ae00887dd980b" seqno="1">
+          <action>Able to select the existing bill</action>
+          <observation>Any order from channels : DMC , CSU , URSA POS , URSA Shopselect existing bill with the payment method in case user the option "zur bestehenden Rechnung hingufugen"</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="b15f642bb91045fc9ce97e0f060cea3e" name="Select Payment method and check or unchek email notification with the bill atached in case user selects the option  Eine separate Rechnung erhalten" type="Automatic">
+      <parameters />
+      <description>
+        <step id="3afb9713beec4864a33a0b1df8b02245" seqno="1">
+          <action>Able to select the payment method</action>
+          <observation>Select Payment method and check or unchek email notification with the bill atached in case user selects the option "Eine separate Rechnung erhalten"</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="e63019c9993244efb56287db7eb3a995" name="Click  Continue  on Additional Infromation Page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="cae9a1b731164b70ad28eff4676f3df5" seqno="1">
+          <action>Summary Page will be displayed</action>
+          <observation>Click "Continue" on Additional Infromation Page</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="ed94dcf457eb4d748106af88e44dff37" name="Preconditions We are on the summary page of Move scenario" type="Automatic">
+      <parameters />
+      <description>
+        <step id="6698dcb4be854dd9805c85aa8d2564cd" seqno="1">
+          <action />
+          <observation>Preconditions:We are on the summary page of Move scenario</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="5b397a7ecb6c4dac9d906f130b18bbda" name="In case of bundle Modification Move secnario  check If multipleAccesses is true display selected Asset on Summary and Confirmation Pages" type="Automatic">
+      <parameters />
+      <description>
+        <step id="92cd6a7e838e4001a5f15ceab9253a16" seqno="1">
+          <action>Selected assset should be displyed on summary and confirmation pages</action>
+          <observation>In case of bundle Modification Move secnario, check If multipleAccesses is true display selected Asset on Summary and Confirmation Pages.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="6064ccaed12142a3ad8ef4a66491fd47" name="Check activation fee move for for all channels" type="Automatic">
+      <parameters />
+      <description>
+        <step id="86c720257aab40ba90de81bd66f343c8" seqno="1">
+          <action>43 chf should display for activation fee move in summary page</action>
+          <observation>Check activation fee move for for all channels.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="8f68a218af4c474aa9a1e1db03d2e7c7" name="Optional Drill dow on  activation fee move  component   enter discount amount and select the reason for discountNote  Applicable for URSA Shop  DMC and CSU" type="Automatic">
+      <parameters />
+      <description>
+        <step id="661bf8588ede489d8049760687345549" seqno="1">
+          <action>Price waiving shall be possible for activation fee move</action>
+          <observation>Optional:Drill dow on "activation fee move" component , enter discount amount and select the reason for discountNote: Applicable for URSA Shop, DMC and CSU</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="be5dfc7bb36c4c9ab0265f5ee6f308ec" name="Optional Drill dow on  Router  component   enter discount amount and select the reason for discount  Note  Applicable for URSA Shop URSA POS DMC and CSU" type="Automatic">
+      <parameters />
+      <description>
+        <step id="dd5b21f5a62c4a13bece49cbb000e1b9" seqno="1">
+          <action>Price waiving shall be possible for Router</action>
+          <observation>Optional:Drill dow on "Router" component , enter discount amount and select the reason for discount. Note: Applicable for URSA Shop,URSA POS,DMC and CSU</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="3ea41a9d40884c8096ea53b592078654" name="Optional Drill down on OSI  enter discount amount and select the reason for discount  Note  Applicable for URSA Shop  DMC and CSU" type="Automatic">
+      <parameters />
+      <description>
+        <step id="835c459f39a2459f925d30457320d754" seqno="1">
+          <action>Price waiving shall be possible for OSI</action>
+          <observation>Optional:Drill down on OSI, enter discount amount and select the reason for discount. Note: Applicable for URSA Shop, DMC and CSU</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="459292643bca4c8d8c2e426b7018b90f" name="Date description is displayed incase any options are deleted" type="Automatic">
+      <parameters />
+      <description>
+        <step id="77d195e4470f4a5bb65953f86ba1a78a" seqno="1">
+          <action>DE: Inklusiveinheiten verfallen, wenn sie bis zum Ausführungsdatum nicht genutzt werden.FR: Les minutes incluses, qui n’auront pas été utilisées à la date d’exécution seront perduesEN: The included minutes, which would not have been consumed at the date of execution will be lostIT: I minuti inclusi verranno persi se non utilizzati entro la data di esecuzione</action>
+          <observation>Date description is displayed incase any options are deleted</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="f92cad4d78004f3d96e5f42394ffb67c" name="Check delivery address displayed correctly" type="Automatic">
+      <parameters />
+      <description>
+        <step id="78fed91819e1496e855f8a3463bf2429" seqno="1">
+          <action>Delivery address should display correctly.</action>
+          <observation>Check delivery address displayed correctly</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="b5ac9c8af0f245e0a39d098345c99528" name="In the Termin  amp  Instaaltion page  select the desired Installation and check the respective Price" type="Automatic">
+      <parameters />
+      <description>
+        <step id="f19a2a41ca6346cfa0d3a3bb6e21ac45" seqno="1">
+          <action>Should display the Installaltion details and its price correctly</action>
+          <observation>In the Termin &amp;amp; Instaaltion page, select the desired Installation and check the respective Price</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="7b4f0ad48d904f6fa0b0337085c323c2" name="Based on the Installation chosen  select the desired Appointment date  Not applicable to SelfInstallation" type="Automatic">
+      <parameters />
+      <description>
+        <step id="607dc9c1973a4e0598762a8f7ed8a26b" seqno="1">
+          <action>The appointment should be selected successfully</action>
+          <observation>Based on the Installation chosen, select the desired Appointment date (Not applicable to SelfInstallation)</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="4547f1f0185e44fb95b39bfed3089cb8" name="For Use case  MoveSelect CWD  Customer Wishdate  and a OLDD  Old Line Deactivation Date Note  The Old line deactivation date should be before the new line activation date OLDD   CWD" type="Automatic">
+      <parameters />
+      <description>
+        <step id="71d989ac50994b1f875dbab33065bf23" seqno="1">
+          <action>User should be able to select the dates for new access activation and old access deactivation.Dates are accepted only if OLDD = CWD , else the below error message should be displayed.DE: Bitte geben Sie einen Einschalttermin ein, der zeitlich nach dem Ausschalttermin liegt.</action>
+          <observation>For Use case :MoveSelect CWD (Customer Wishdate) and a OLDD (Old Line Deactivation Date)Note: The Old line deactivation date should be before the new line activation date(OLDD = CWD )</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="9e037af4efc84580a43720dd46be59d8" name="Click on continue" type="Automatic">
+      <parameters />
+      <description>
+        <step id="9c56782c3798456091236e30d1030515" seqno="1">
+          <action>Additonal information page is displayed</action>
+          <observation>Click on continue</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="9a757366680d421982b8d8c1d64f635d" name="Verify that the payment method  the bill delivery and the billing address are returned by APP_SBL_INJDB_015 Get Best n stack Billing Profile   If there are several billing profiles   only agents can choose another existing N Stack billing profile or create an additional billing profile  For selfcare  show only the best n stack billing profile as today" type="Automatic">
+      <parameters />
+      <description>
+        <step id="8d972c060ee244b6b737be18e658c34d" seqno="1">
+          <action>Billing profile details are displayed.</action>
+          <observation>Verify that the payment method, the bill delivery and the billing address are returned by APP_SBL_INJDB_015 Get Best n-stack Billing Profile . If there are several billing profiles , only agents can choose another existing N-Stack billing profile or create an additional billing profile. For selfcare, show only the best n-stack billing profile as today.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="38acd5e8066c44ed9fa015ef9e8a21bc" name="Verify that If the bill address returned by APP_SBL_INJDB_015 Get Best n stack Billing   current location address  pre default the bill address of this billing profile to the new location address  Leave the bill address of other billing profiles unchanged" type="Automatic">
+      <parameters />
+      <description>
+        <step id="e2137dae0a35425ba7cc36e70e5e1475" seqno="1">
+          <action>When billing address is different it is changed and the address for remaining profiles is same.</action>
+          <observation>Verify that If the bill address returned by APP_SBL_INJDB_015 Get Best n-stack Billing = current location address, pre-default the bill address of this billing profile to the new location address. Leave the bill address of other billing profiles unchanged.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="ec7dd5f6fe33481ab3da9fa6dbc295eb" name="Verify that all the users can change the bill address unless it is not future dated" type="Automatic">
+      <parameters />
+      <description>
+        <step id="e1695a8e3a1a4a2ea09b5e2cd89928dc" seqno="1">
+          <action>Bill address can be changed if it is not future dated.</action>
+          <observation>Verify that all the users can change the bill address unless it is not future dated.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="6ab99f27324148d2a91dd9482e81deb9" name="Select the required internet options and Click on  Continue  ButtonNote Configure the Internet options for Bundle Component Modification Scenerio s as per the Requirement" type="Automatic">
+      <parameters />
+      <description>
+        <step id="5ddb9dc899ce42cfa746e404994f1168" seqno="1">
+          <action>Respective Page Will be displayed as per the use case will be displayed</action>
+          <observation>Select the required internet options and Click on 'Continue' ButtonNote:Configure the Internet options for Bundle Component Modification Scenerio's as per the Requirement</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="3a7b4a5e70df4f349386f8e8799966d9" name="Select the Required TV Options and Click on  Continue  ButtonNote Delete or Add the Tv options as per the Scenerio Mentioned especially for Bundle Component Modification" type="Automatic">
+      <parameters />
+      <description>
+        <step id="26b933e09d7140a48fa5ce0295983362" seqno="1">
+          <action>Required page will be displayed Based on the Use case</action>
+          <observation>Select the Required TV Options and Click on 'Continue' ButtonNote:Delete or Add the Tv options as per the Scenerio Mentioned especially for Bundle Component Modification</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="10be96388c1840fa9a940c3135827e28" name="Verify the TV Promotions and Language packs UHD hint are available in TV Configurations page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="03b0218f32e14431b3b581b52ad4982e" seqno="1">
+          <action>TV Promotions and Language packs,UHD hint are available in TV Configurations page.</action>
+          <observation>Verify the TV Promotions and Language packs,UHD hint are available in TV Configurations page.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="0f0a5d8873fe4066aaea98683d9e3e8b" name="No Manual Promotions for Teleclub and Canal  will be displayed for TV configuration page in URSA POS" type="Automatic">
+      <parameters />
+      <description>
+        <step id="581d35405c0e4250b440200ccf905476" seqno="1">
+          <action>No Manual Promotions for Teleclub and Canal+ will be displayed for TV configuration page in URSA POSShould be dispalyed</action>
+          <observation>No Manual Promotions for Teleclub and Canal+ will be displayed for TV configuration page in URSA POS.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="c04728806c724bc3aa3ede6454969808" name="Canal plus promotion will not be displayed for a new customer" type="Automatic">
+      <parameters />
+      <description>
+        <step id="93028dadd1f14a12b869cee536b0cdc1" seqno="1">
+          <action>Canal plus promotion will not be displayed for a new customerShould be dispalyed</action>
+          <observation>Canal plus promotion will not be displayed for a new customer</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="30b99b5aaebb4c4f9cb60d34733c607f" name="The Canal  National offer at CHF 35 month should be extended to 28 02 2017" type="Automatic">
+      <parameters />
+      <description>
+        <step id="4207ce406c434a90a02f0e498308a91e" seqno="1">
+          <action>The Canal+ National offer at CHF 35/month should be extended to 28.02.2017Should be dispalyed</action>
+          <observation>The Canal+ National offer at CHF 35/month should be extended to 28.02.2017</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="6cb59c1c3f5947708e2cfb740f6dce6f" name="The Canal  DMC offer at CHF 29 month should be extended to 31 10  2017" type="Automatic">
+      <parameters />
+      <description>
+        <step id="826f9d56f0c845c3bfbdb28a0cd1eaae" seqno="1">
+          <action>The Canal+ DMC offer at CHF 29/month should be extended to 31.10. 2017Should be dispalyed</action>
+          <observation>The Canal+ DMC offer at CHF 29/month should be extended to 31.10. 2017</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="0bbd5198c83d42aa9b304a2b1948189c" name="Canal  wording should be 6x channels HD instead of 10x" type="Automatic">
+      <parameters />
+      <description>
+        <step id="8c60f8555fca427a855c6e8f90516c70" seqno="1">
+          <action>Should be dispalyed as expected</action>
+          <observation>Canal+ wording should be 6x channels HD instead of 10x</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="30ac688b7ffc4da0b430dd23505aedd9" name="Additional UHD TV STB Price visible in TV Config Page Add addition STB as per the requirement and proceed with ordering process" type="Automatic">
+      <parameters />
+      <description>
+        <step id="bf1ca8c7102b47969e10a4c38711799a" seqno="1">
+          <action>Price for the additional STB Price should be calculated and visible in TV Config page</action>
+          <observation>Additional UHD TV STB Price visible in TV Config Page.Add addition STB as per the requirement and proceed with ordering process</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="545cbb3f44bd4b66afb5f0ce2e655a27" name="Precondition  User is on Fesnetz Optionen page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="251ecd0b596e4666941bb9a6db20c531" seqno="1">
+          <action />
+          <observation>Precondition: User is on Fesnetz Optionen page</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="048df2c7031447809b601474fa7dd1fb" name="Verify the main phone number of the bundle will be displayed or not" type="Automatic">
+      <parameters />
+      <description>
+        <step id="f2b859f4ffcd4a20a310fde19fc6a9d9" seqno="1">
+          <action>Phone number of the bundle should be displayed.Note:No Phone Number should be displayed on NEO VOIP Configuration Page when ZNV is down.</action>
+          <observation>Verify the main phone number of the bundle will be displayed or not.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="052042a41a4b4646a20d6b31e292244b" name="Optional Select number of phone numbers number of phone numbers" type="Automatic">
+      <parameters />
+      <description>
+        <step id="50c4001852c74047b5f761eefb6887a5" seqno="1">
+          <action>number of phone numbers should be added</action>
+          <observation>Optional:Select number of phone numbers number of phone numbers</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="89a73318b6af445c9a17e863878069f2" name="Verify Internation Telephone options will be displayed" type="Automatic">
+      <parameters />
+      <description>
+        <step id="b554245ebf474054806b6b2a6bbf086a" seqno="1">
+          <action>Internation Telephone options will be displayed</action>
+          <observation>Verify Internation Telephone options will be displayed</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="1dcd47c6a23b435f9f71e7394cde5bfd" name="Optional Select international telephone option International Telephone option" type="Automatic">
+      <parameters />
+      <description>
+        <step id="1e4b8e6dd5bf421b84a274ecd322fee6" seqno="1">
+          <action>International Telephone option should be added</action>
+          <observation>Optional:Select international telephone option International Telephone option</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="a302150210d74dc4a2abe5285b683e8b" name="OptionalCWD is displayed on VOIP Config page for Modification scenarios" type="Automatic">
+      <parameters />
+      <description>
+        <step id="b23fd047337b4e7bb6388be4c1ac3e27" seqno="1">
+          <action>User should be able to select activation date</action>
+          <observation>OptionalCWD is displayed on VOIP Config page for Modification scenarios</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="f0bb54faf2db4638b93b20cf9b609a9f" name="Click on continue button" type="Automatic">
+      <parameters />
+      <description>
+        <step id="def044288d784c5a87113e545cc23a66" seqno="1">
+          <action>Navigates to correct page based on use case.</action>
+          <observation>Click on continue button</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="12ab8701d9e24658b3b0278ea69fdd73" name="Precondition  User is on socket selection page" type="Automatic">
+      <parameters />
+      <description>
+        <step id="18ca1a6377a04908a8e06f16fa96373a" seqno="1">
+          <action />
+          <observation>Precondition: User is on socket selection page</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="73dad82eddd2464d903940d28558447e" name="Verify below options to be displayed1  Bei mir wurde bereits eine Glasfasersteckdose installiert2 Bei mir wurde noch keine Glasfasersteckdose installiert3 Ich weiss nicht  ob bei mir schon eine Glasfasersteckdose installiert wurde" type="Automatic">
+      <parameters />
+      <description>
+        <step id="628dc251000246edacd96ced8ff14c45" seqno="1">
+          <action>Specified options should display.</action>
+          <observation>Verify below options to be displayed1. Bei mir wurde bereits eine Glasfasersteckdose installiert2.Bei mir wurde noch keine Glasfasersteckdose installiert3.Ich weiss nicht, ob bei mir schon eine Glasfasersteckdose installiert wurde</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="d4b96a37db82486897262316e4f53a33" name="Select the option  Bei mir wurde bereits eine Glasfasersteckdose installiert" type="Automatic">
+      <parameters />
+      <description>
+        <step id="300143fa87b04cc3aca3bb5086b42dff" seqno="1">
+          <action>Dropdown with avilalble fiber ready and OTO ready sockets in the address should display</action>
+          <observation>Select the option "Bei mir wurde bereits eine Glasfasersteckdose installiert"</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="4d1359ff67d94cb49952858b3d391e8e" name="Select the type of socket from dropdown" type="Automatic">
+      <parameters />
+      <description>
+        <step id="f294bee4f2d34eafa913304727b89f15" seqno="1">
+          <action>Line status should display below the dropdown for URSA Shop,CSU and DMC agents.As Per the Socket the below Message will be Displayed Message</action>
+          <observation>Select the type of socket from dropdown.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="8fe8b7e223a84ee99b1b7b6f04d40519" name="Click on Continue button" type="Automatic">
+      <parameters />
+      <description>
+        <step id="2634ca73657343549e81d000fd0bc479" seqno="1">
+          <action>Installation page should display</action>
+          <observation>Click on Continue button</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="0b73fd88f72e425f95ce5a28e161751e" name="Select the connection you want to move to other location in contract applet and Click on  Umzug  button" type="Automatic">
+      <parameters />
+      <description>
+        <step id="88193067c2684b83bf38e4765e095109" seqno="1">
+          <action>Navigates to Addressen tab.</action>
+          <observation>Select the connection you want to move to other location in contract applet and Click on "Umzug" button</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="38cf0f4c6ed44d2c882adbc652fded95" name="Click on  Umzug  link under Addressen tab" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0fc7d748cfa640ea84090caf6d15d3b5" seqno="1">
+          <action>Existing connections details of the customer will be displayed.</action>
+          <observation>Click on "Umzug" link under Addressen tab</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="26140cd7f809457f8b794abfec63335f" name="Choose the required connection and Click on button to perform scenario" type="Automatic">
+      <parameters />
+      <description>
+        <step id="d737354e03584b769d5f7c2c92bf718a" seqno="1">
+          <action>Navigates to MAP if NEO proces flag is checked.</action>
+          <observation>Choose the required connection and Click on button to perform scenario</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+  </keywords>
+  <testsuites>
+    <testsuite id="48ffb4b359b346069858eb97e023c820" name="Test Scenario Test Report">
+      <description id="5f7ba2fe2da342db97a6de010b78ea01">Test Scenario Test Report</description>
+      <test id="9d7c3d2034f24e949038cdf9fbd512c0" name="SBL 0070_Search Customer">
+        <description id="b9cc9199f1934039bc8e1889129f3328">Step 1</description>
+        <teststep id="3b1eef09c6cc405e99feb16b318fa3d6" type="keyword" targetid="364b2ec1fd4c4b9aa91f0427592201a0" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="a86ec50122944b9a9450b2637d4b2700" type="keyword" targetid="5e9ed46a3da647b1802588ae4ad37c4c" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="faf9d0de390e424187b78cbc7b49b6da" name="MAP 1000_MAP Catalogue">
+        <description id="4244f6a037c647a3a8f42e94b5b5081c">Step 1</description>
+        <teststep id="79b1380144f64a1088e9f91333ccf799" type="keyword" targetid="b07d909914e349e398f7f4f1ffde0589" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="15e000e544a84097b6ea56f9da38773f" type="keyword" targetid="b3f2e766949748b7a781018f22038ff8" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f8bebfa4c32f49e9b14d6d0c7a314d51" type="keyword" targetid="c13cb990fda74275a76a55eef5ae1d19" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="7698a52cf8ba427e8bb4ff2c5d707022" name="NEO 0040  Overview Page">
+        <description id="62f4834fdfcc4d30b5931353eb05d51f">Step 1</description>
+        <teststep id="3db9cb5cc59047e298b47b57f3e54e92" type="keyword" targetid="f5be5bca141e44af8fa3af1b3e945714" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="497dccbd095642df9675f73eb3a720a3" type="keyword" targetid="d2e30a63bb694a749993e00b21bf1a68" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7f31d56176ff4b7780649e9965a6ffde" type="keyword" targetid="3211febd6d9e489685a21c902a192866" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="36228d8827d543f3b25745a973f5c588" name="NEO 0044  Installation  Router   Accessories Page">
+        <description id="71c73b72b80249fb94f73d33f22f836b">Step 1</description>
+        <teststep id="c3388a11d0ff449887f0db6c4bd0400d" type="keyword" targetid="4bf98348e19e4238a3caf2bb4cce6b2f" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="36fcc4782ab748508715b0c5c2fe9f7b" type="keyword" targetid="c01c18d8c2244d849c6549816e7422a4" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="53f2e2bad12c4a31845878dee2c429fe" type="keyword" targetid="7f34d4b7f87f4d9984960d4d6f9341f9" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="5285e0f5f0f845a6983171e6ce3f18c1" type="keyword" targetid="46d3629ba2ea49b883995657c153f8fc" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="c93dc3c491b4472a8653e2f0146be1c3" type="keyword" targetid="2ac3939e28f64ad28346e84c67139fc0" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="9e5d44f8737a444185b000ffab2bba03" name="Symphony_Login">
+        <description id="dac57af51e6d49c79c98a6b9c78914af">Step 1</description>
+        <teststep id="779a7d00dcf94ebab00a7435274f71fe" type="keyword" targetid="19dd5da4cc8c4f0786f908a9bd1e04f9" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="b34ee17b5afd452c823333066b5b2be0" type="keyword" targetid="91a9317f2ee244d1b4d057af10a7a5b3" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="162dbd05b7154b19ba0bcf06a73edbc5" name="Symphony_Activate CSU profile">
+        <description id="04f42d9c4c5944b9bebc789e055ef96f">Step 1</description>
+        <teststep id="9d46728a41fe42ffbf4cb05cd781362b" type="keyword" targetid="573a63093d344de6a749483452ecf462" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="d4ca5473f6d845f4a94f3bd198d45ab1" type="keyword" targetid="8c90be718e2e4058b5039c072f699212" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="57ba4e02fe384c6187a3bdf04ea9127c" type="keyword" targetid="feb7c5676ae94a00939cfbadb92dbd47" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="3a5938d7dd1a490f82983e1c1621bac0" name="MAP_Enter address to Umzug meldung">
+        <description id="aa6d9c5736914505a4d903027f49692a">Step 1</description>
+        <teststep id="79f15462bbf1463191e0167ad5072c36" type="keyword" targetid="a37394a494fa4ac0ae9d8ba77d7635aa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6a262adaed76493fabb91e016049da77" type="keyword" targetid="edee4cf128cd47f3856ea3212b93ccfd" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e11c98d9baa74d40b7c3c085d0ea88d2" type="keyword" targetid="4545864833d24a9fbc0e739dd70f9e68" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="3af593ed2e094441b626d7dec4f51ae5" name="NEO_PR 0057_Prepare to submit Order">
+        <description id="d9f4e591ee3c49d1b05e48082d42d60e">Step 1</description>
+        <teststep id="2a0d49c0375146a997dcf5ceb0eef697" type="keyword" targetid="42ece159f5df45aaa739d88db7d39813" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="ce1e532abd884be3a5608c30b05fa558" name="SBL 0256_Quote submission">
+        <description id="e298be757e84415490867f1d6969d05a">Step 1</description>
+        <teststep id="b698c750f69640aa83e2cd9f823e0d02" type="keyword" targetid="90e254ccb5c84fdab0fc3335e87c5db9" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="bd4cf90f91dc4d76997474c6e540e269" type="keyword" targetid="a01e23c2073b4a6f961eca322cf18da7" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9db3f7b27ffe4674a437a49b2dbf18c8" type="keyword" targetid="05600069b8024fa2a690f2b957fa2703" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="542289e0c5314a7cb562be4abec20ded" type="keyword" targetid="74db18864afd413a87a9a31a1b9a55fd" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f4654a6a367b4ae1a70954f76653ea23" type="keyword" targetid="091585850f564079a090ad4b3ecb62b6" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="67ffe6c2c6ec467391ee03233c6bfbc7" type="keyword" targetid="5233c038ed6841c9a6be8be5c68236ed" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="cd02ec41865d4217840aa7a08c83faca" type="keyword" targetid="d2fccd70f3494cf9bc2ef2bdef69de01" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="83abede6edba427ba7308feb6a8eea97" name="NEO_0100_Additional Information Page">
+        <description id="09e6b01667974ef393f9eceefe689866">Step 1</description>
+        <teststep id="015eb6e163dc400bbf72d45d652ef5df" type="keyword" targetid="c242ce66c11a4a888a3abefcaf422cda" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="dacd1ff3495048d2a15572e10b1027bf" type="keyword" targetid="e014328fb9a149938ed1bb9a5930e965" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e9dde85f3ee8430197600accec9b5004" type="keyword" targetid="0edeab026dc54e7bb7d78b6352025cf0" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="113f67005fc2424aaa76a542b87da985" type="keyword" targetid="9e3acc8d535d4a8b8faf080c9dd9ea72" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="ffae88bac2f442fc8313348f0bb972e6" type="keyword" targetid="f66ae49631f74c27b57a2828ffef7a00" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="4e232d2c970c48ad943968dcd06ad6f1" type="keyword" targetid="b15f642bb91045fc9ce97e0f060cea3e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="29ec5ccc87e94f72810216a8f719337c" type="keyword" targetid="e63019c9993244efb56287db7eb3a995" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="9aec4a0d635046068f65321162798fb7" name="NEO 0096_ Move Summary Page">
+        <description id="99ca93f9d8da4ac397c724b0753f14da">Step 1</description>
+        <teststep id="0abd6493cc014364a174060b6c4a27d8" type="keyword" targetid="ed94dcf457eb4d748106af88e44dff37" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="23ae5ccbaa014cb481a35d440ab41c35" type="keyword" targetid="5b397a7ecb6c4dac9d906f130b18bbda" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="06b9abb8a81c4427a62c56efe6a1b953" type="keyword" targetid="6064ccaed12142a3ad8ef4a66491fd47" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="400a68a2ac7b4772821c02ea58fdf21d" type="keyword" targetid="8f68a218af4c474aa9a1e1db03d2e7c7" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e3b07b116c684b84a594d16a01b27cf2" type="keyword" targetid="be5dfc7bb36c4c9ab0265f5ee6f308ec" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="5aaf4d4ed24a46929a0b50a6fde239d5" type="keyword" targetid="3ea41a9d40884c8096ea53b592078654" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="112af35f69b94fcaaa1f2c4dfb751fc2" type="keyword" targetid="459292643bca4c8d8c2e426b7018b90f" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="d520f6f2cab44e3bbe808a2ae973a62d" type="keyword" targetid="f92cad4d78004f3d96e5f42394ffb67c" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="d2bbb26375ed45b09fa874b51ba08741" name="NEO 0044  Termin   Installation page">
+        <description id="7e080eebfcff4872bfa362dfcb9ea7c1">Step 1</description>
+        <teststep id="8eefc1439d024bad94467c98b82c2ca9" type="keyword" targetid="b5ac9c8af0f245e0a39d098345c99528" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6fa62bbf8f7f43eeaafa63a616989657" type="keyword" targetid="7b4f0ad48d904f6fa0b0337085c323c2" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="3365f83007ef41629466677cda4d83ba" type="keyword" targetid="4547f1f0185e44fb95b39bfed3089cb8" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="5d302e2c64154590bc61ca4dfa9269e1" type="keyword" targetid="9e037af4efc84580a43720dd46be59d8" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="386209f4b24b451bb4c10a964b338969" name="NEO_OUT 1020_Get Best N Stack Billing Profile">
+        <description id="202e5415b8a845a6868afa643e0da7e1">Step 1</description>
+        <teststep id="ab6e6cb75a79419a8f69131832ac7036" type="keyword" targetid="9a757366680d421982b8d8c1d64f635d" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="bd3555102c3f42c195c5a17c7ebc54a4" type="keyword" targetid="38acd5e8066c44ed9fa015ef9e8a21bc" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7cde85f8c9af4f959df7c6f25a08f059" type="keyword" targetid="ec7dd5f6fe33481ab3da9fa6dbc295eb" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="6f572fce86414dcf88878bda22ba18bd" name="NEO PR 0033_Configure Internet options">
+        <description id="c7409ef74971491aac875eaf621ee823">Step 1</description>
+        <teststep id="99a508743a0c43b68f525a98ff21bbe7" type="keyword" targetid="6ab99f27324148d2a91dd9482e81deb9" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="263bb27546af4db7bf4ad01e0ae7c049" name="NEO 0042_TV Configuration Page">
+        <description id="e684dc78e90a40d5933645ec756dd8c4">Step 1</description>
+        <teststep id="a78165962be74421b7927262498fb434" type="keyword" targetid="3a7b4a5e70df4f349386f8e8799966d9" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="5c7a02eca8174c85a3b76a11ee19a1ee" type="keyword" targetid="10be96388c1840fa9a940c3135827e28" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7d22a0c442fa436d91f2f828fd1a680e" type="keyword" targetid="0f0a5d8873fe4066aaea98683d9e3e8b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="605e030700074231ad2c9b06b6096fdc" type="keyword" targetid="c04728806c724bc3aa3ede6454969808" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="bc3b22ae29964547b25ab573bfab646f" type="keyword" targetid="30b99b5aaebb4c4f9cb60d34733c607f" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="69cd07a1a9da40d1b42624034f15b0f5" type="keyword" targetid="6cb59c1c3f5947708e2cfb740f6dce6f" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9edfe40104a44412a2c0cdc422bf5fc7" type="keyword" targetid="0bbd5198c83d42aa9b304a2b1948189c" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="4500d5b614334a06b36c103fd25bb942" type="keyword" targetid="30ac688b7ffc4da0b430dd23505aedd9" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="d4a822380d354f3e9268f50ec864ce64" name="NEO 0041_VoIP Config">
+        <description id="2fd90445fac64fc9a6fd274c2760f960">Step 1</description>
+        <teststep id="7d29004bf5184f4c8b6aae9bbbed1747" type="keyword" targetid="545cbb3f44bd4b66afb5f0ce2e655a27" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="2942468ff1304c22af5a40657f81a934" type="keyword" targetid="048df2c7031447809b601474fa7dd1fb" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="0cd9dbd97ce4487d9fcd4a7d644a960b" type="keyword" targetid="052042a41a4b4646a20d6b31e292244b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="0d3b4360d1de42e48bbb09486a4a4262" type="keyword" targetid="89a73318b6af445c9a17e863878069f2" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="fab5b69982024d9bb07ecb3ece6d7b7b" type="keyword" targetid="1dcd47c6a23b435f9f71e7394cde5bfd" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9e498a424f694c219d929f7f3d8993dd" type="keyword" targetid="a302150210d74dc4a2abe5285b683e8b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="01ae7fabde9d47238078743f261267f3" type="keyword" targetid="f0bb54faf2db4638b93b20cf9b609a9f" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="528d9e6437e34b53acc115a9ca46c357" name="NEO 0043_Acess Page_Socket Known case">
+        <description id="3b0d8687d283483a95c64c0bf9039766">Step 1</description>
+        <teststep id="991a7a41ae6944a4ae3207f707a0040a" type="keyword" targetid="12ab8701d9e24658b3b0278ea69fdd73" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7bc8fdf4612c42908f62f4e01f4d071b" type="keyword" targetid="73dad82eddd2464d903940d28558447e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="11656a698464407481f832fd687d72b1" type="keyword" targetid="d4b96a37db82486897262316e4f53a33" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="92eed09a7c374fe1abe8a914e6d8c36d" type="keyword" targetid="4d1359ff67d94cb49952858b3d391e8e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="04e965f9550b48029a75173612b3188d" type="keyword" targetid="8fe8b7e223a84ee99b1b7b6f04d40519" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="c7b2a0c54f574f7dbd0af0b890bee978" name="OBSOLETE_SBL 0131_Start Move">
+        <description id="45e68de4deab4bb19af298080b233f7d">Step 1</description>
+        <teststep id="78d490dbc3a0424eb5f42d4e1ef7dc04" type="keyword" targetid="0b73fd88f72e425f95ce5a28e161751e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="73eb294022ba4b82953717d5b80ead7d" type="keyword" targetid="38cf0f4c6ed44d2c882adbc652fded95" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="8ea2fc20cc424ef59608c0a80bca7f07" type="keyword" targetid="26140cd7f809457f8b794abfec63335f" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+    </testsuite>
+  </testsuites>
+</project>
