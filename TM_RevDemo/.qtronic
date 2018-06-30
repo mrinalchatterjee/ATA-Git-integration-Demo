@@ -4,7 +4,7 @@
   <projectProperties key="CreatorDataDistribution" value="false"/>
   <projectProperties key="IntelligentTestCaseNaming" value="true"/>
   <projectProperties key="LookAheadDepth" value="0"/>
-  <projectProperties key="MainActivityDiagram"/>
+  <projectProperties key="MainActivityDiagram" value="model/Move_Adoption_Vivo_M_ohne_FX_BP(LSV)_Print_Code_as_online_No_change_in_B_Test Scenario Test Report.ad"/>
   <projectProperties key="OnlyFinalizedRuns" value="false"/>
   <projectProperties key="TestCaseIndexOffset" value="0"/>
   <projectProperties key="TestCaseNamePrefix" value="Test Case "/>
