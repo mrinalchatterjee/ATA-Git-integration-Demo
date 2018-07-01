@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad="http://www.conformiq.com/emf/14/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <ad:ActivityDiagram xmi:id="_935e16de784441bd830df41c394d7b35" type="_28212d8fd176492eae8e4a378a8c8d5f">
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_13f7a219dff64591aaa4c969cc0a14ae" to="_c42c71046a244a0dae16468467673096GlobalEvent" from="_1dbf2a1b0b4e40a4a0c6be2b25821b08_GlobalInitial"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_606fe88681464055aa5bb6e9f57a6ef5" to="_da52935b9aa1408ca8b9ffc53d387141SubActivity" from="_c42c71046a244a0dae16468467673096GlobalEvent"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_b5191eb34a2049cd8d03a346d8a23c0d" to="_131a14ee5b13451fae8c808502d32761SubActivity" from="_c42c71046a244a0dae16468467673096GlobalEvent"/>
+    <nodes xmi:type="ad:EventNode" xmi:id="_c42c71046a244a0dae16468467673096GlobalEvent" name="GlobalEvent" controlFlowsIn="_13f7a219dff64591aaa4c969cc0a14ae" controlFlowsOut="_b5191eb34a2049cd8d03a346d8a23c0d _606fe88681464055aa5bb6e9f57a6ef5"/>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_131a14ee5b13451fae8c808502d32761SubActivity" name="Sheet1" controlFlowsIn="_b5191eb34a2049cd8d03a346d8a23c0d" subDiagramType="_b1950a27437a459893d4ee1a91e711f4"/>
+    <nodes xmi:type="ad:InitialNode" xmi:id="_1dbf2a1b0b4e40a4a0c6be2b25821b08_GlobalInitial" name="GlobalInitial" controlFlowsOut="_13f7a219dff64591aaa4c969cc0a14ae"/>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_da52935b9aa1408ca8b9ffc53d387141SubActivity" name="Sheet3" controlFlowsIn="_606fe88681464055aa5bb6e9f57a6ef5" subDiagramType="_916e3c8d8ac4469bbf1691880214ca15"/>
+  </ad:ActivityDiagram>
+  <notation:Diagram xmi:id="_7ff7b447936e4c438931cf7fdfe1a3c2" type="ConformiqActivityChart" element="_935e16de784441bd830df41c394d7b35" name="CRM Related Cases_second set_global.ad" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_n6MWEHZAEeiYfob4mFyMyw" type="2001" element="_c42c71046a244a0dae16468467673096GlobalEvent">
+      <children xmi:type="notation:DecorationNode" xmi:id="_n6M9IHZAEeiYfob4mFyMyw" type="5001"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_n6MWEXZAEeiYfob4mFyMyw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_n6MWEnZAEeiYfob4mFyMyw" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6MWE3ZAEeiYfob4mFyMyw" x="192" y="96" width="95" height="93"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_n6NkMHZAEeiYfob4mFyMyw" type="2006" element="_131a14ee5b13451fae8c808502d32761SubActivity">
+      <children xmi:type="notation:DecorationNode" xmi:id="_n6NkNHZAEeiYfob4mFyMyw" type="5006"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_n6NkNXZAEeiYfob4mFyMyw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_n6NkNnZAEeiYfob4mFyMyw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_n6NkN3ZAEeiYfob4mFyMyw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_n6NkMXZAEeiYfob4mFyMyw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_n6NkMnZAEeiYfob4mFyMyw" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6NkM3ZAEeiYfob4mFyMyw" y="220"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_n6NkOHZAEeiYfob4mFyMyw" type="2004" element="_1dbf2a1b0b4e40a4a0c6be2b25821b08_GlobalInitial">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_n6NkOXZAEeiYfob4mFyMyw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_n6NkOnZAEeiYfob4mFyMyw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_n6NkO3ZAEeiYfob4mFyMyw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6NkPHZAEeiYfob4mFyMyw" x="216" y="12"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_n6OLQHZAEeiYfob4mFyMyw" type="2006" element="_da52935b9aa1408ca8b9ffc53d387141SubActivity">
+      <children xmi:type="notation:DecorationNode" xmi:id="_n6OyUHZAEeiYfob4mFyMyw" type="5006"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_n6OyUXZAEeiYfob4mFyMyw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_n6OyUnZAEeiYfob4mFyMyw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_n6OyU3ZAEeiYfob4mFyMyw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_n6OLQXZAEeiYfob4mFyMyw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_n6OLQnZAEeiYfob4mFyMyw" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6OLQ3ZAEeiYfob4mFyMyw" x="278" y="220"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_c49484f61f264f958aaf7112cbd71b9d"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/14/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_68487b76-269a-41c1-9461-d0b55ec50c49" type="Dsl" name="CRM Related Cases_second set.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Timeline" type="Note" fontName="Segoe UI" description="This diagram was automatically generated from CRM Related Cases_second set.xls on 28/05/2018 18:31:18 by Excel Manual Tests Importer" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_a3d81697e7f1463eb16245a226289432" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__eb8077ecdfd94fd582f74a358016fd72" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_f2269d3c2513412ea40db5bad072a5cd"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_5178490b2bb54c90a27e3fd2db3ec53c"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__e02910892df5425181dd8132b4c943d2" x="100" y="100"/>
+  </children>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="CRM%20Related%20Cases_second%20set.sl#/"/>
+</notation:Diagram>

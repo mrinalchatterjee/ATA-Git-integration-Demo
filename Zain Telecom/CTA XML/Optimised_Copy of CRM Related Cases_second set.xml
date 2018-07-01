@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project id="ce5272d03ebd468e95b80ad8d22b3d58" name="Copy of CRM Related Cases_second set" dbversion="2">
+    <autoconfig>
+        <automationtype id="e92d114ff5154c05a0af682a807acc41" name="Selenium" content="Object, Locator Type, Action, Value, Run, Verdict" type="Table"/>
+        <automationtype id="cb98d6d4d92a4cd2880ca8ae64dae97e" name="QTP" content="Object, Action, Value, Run, Verdict" type="Table"/>
+    </autoconfig>
+    <requirements/>
+    <variables>
+        <variablecategory id="a572ff7dc2c34bdcb0e0538374c16006" name="Default"/>
+    </variables>
+    <keywords>
+        <keywordcategory id="3edc3b1500554b16888c68b0f59317cf" name="Default">
+            <keyword id="_c998b2c8bd464b2e9c7c45300fe32aa1" name="1" type="Automatic">
+                <documentation>1</documentation>
+                <parameters/>
+                <description>
+                    <step id="e3e85946bc974b83800954522d7a3613">
+                        <action>Log into Oracle CRM</action>
+                        <observation>System should be able to login into oracle CRM successfully.</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_191733c13e4748368f8a45957c90e3da" name="2" type="Automatic">
+                <documentation>2</documentation>
+                <parameters/>
+                <description>
+                    <step id="ca8e0578800f4c2da996e2663846d2f1">
+                        <action>Click on Individual Customer Creation</action>
+                        <observation>System should navigate to the customer creation page successfully</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_1fdd7e0fe38a4c789d95e1f3576cedd4" name="3" type="Automatic">
+                <documentation>3</documentation>
+                <parameters/>
+                <description>
+                    <step id="3bbe260a9c1347cf9f658dbe52e82e29">
+                        <action>Select option to create customer as : Manually</action>
+                        <observation>System should allow the user to be created manually .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_a8091ecaf3d24894b856c6b77e8b0d8c" name="4" type="Automatic">
+                <documentation>4</documentation>
+                <parameters/>
+                <description>
+                    <step id="5243895dc6944655be63d9ca3587411a">
+                        <action>Choose Customer type : Individual</action>
+                        <observation>Customer type individual should be selected</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_06fc97138de642adab19af860920e756" name="5" type="Automatic">
+                <documentation>5</documentation>
+                <parameters/>
+                <description>
+                    <step id="38aaa83a046a4e689c03b9c119a4dc5a">
+                        <action>Choose ID type : Civil</action>
+                        <observation>System should allow Iqama IDto be selected</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_2993e710e0d646b4a992db4a13f2584d" name="6" type="Automatic">
+                <documentation>6</documentation>
+                <parameters/>
+                <description>
+                    <step id="411ac7f211d44ce5b63d943b05028789">
+                        <action>Fill all the mandatory fields :
+ - Customer ID 
+ - ID expiry date
+ - Gender
+ - Nationality 
+ - Arabic Title / Name / Last name 
+ - Address type / Country / Postal / Base type / City</action>
+                        <observation>System must allow all the mandatory details to be filled</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_e822fbda5bf84fb394969bd3e3af5df4" name="7" type="Automatic">
+                <documentation>7</documentation>
+                <parameters/>
+                <description>
+                    <step id="a4c93e3f286147c4a96b23bc03db3966">
+                        <action>Validate &amp; Create new customer</action>
+                        <observation>System must Validate details and create a new account</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_e1070948d4d8447f9a46ad4d66309fb0" name="1_1" type="Automatic">
+                <documentation>1_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="caa5496c58754c988ac29a7527179e13">
+                        <action>Log into Siebel CRM</action>
+                        <observation>System should be able to login into CRM successfully .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_91ed1f5d4e6c411d84c29fea2244f22e" name="2_1" type="Automatic">
+                <documentation>2_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="20411138f7804b7fb6c636ac06285204">
+                        <action>Search the Customer account created in the MSA Channel 
+     - with the Customer ID</action>
+                        <observation>System should search the customer created in the MSA Channel successfully .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_6669940e8d0f4b749bd7db213b00498b" name="3_1" type="Automatic">
+                <documentation>3_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="a04e8e367d6d4836bef65fc75719b722">
+                        <action>Navigate to the Customer List View</action>
+                        <observation>System should navigate to the Customer List View</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_056521a1490c40599f3117a5e1367e63" name="4_1" type="Automatic">
+                <documentation>4_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="fa99ace5c0e740828066fa9c4f8f7096">
+                        <action>Check whether the customer account is created</action>
+                        <observation>Customer Account created in MSA Channel must be successfully created .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_98d5d9aede234de1a4e38c3aaa61fd3d" name="1_2" type="Automatic">
+                <documentation>1_2</documentation>
+                <parameters/>
+                <description>
+                    <step id="01947dba0c114186aec1403f0c6524f8">
+                        <action>Log into Oracle CRM .</action>
+                        <observation>System should be able to Log in successfully .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_736b09d256d34cc59cbf76d72be3cba8" name="Search the Individual ... anyone of the following parameterCustomer NameId TypeCustomer ID MSISDN" type="Automatic">
+                <documentation>Search the Individual ... anyone of the following parameterCustomer NameId TypeCustomer ID MSISDN</documentation>
+                <parameters/>
+                <description>
+                    <step id="4f4230be063f4bdaa1e896b6d9b74621">
+                        <action>Search the Individual customer with using anyone of the following parameter:
+-Customer Name
+-Id Type
+-Customer ID 
+-MSISDN</action>
+                        <observation>System should search the customer with the following parameters and fetch the  customer account</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_6e900c2a3afd49d39c5bc92e9fc9bffd" name="3_2" type="Automatic">
+                <documentation>3_2</documentation>
+                <parameters/>
+                <description>
+                    <step id="dd45af655f5f4965a8d7ae8f28c63ea0">
+                        <action>Navigate to Customer List View .</action>
+                        <observation>System should display the customer as " BLACK LISTED " customer by marking the blacklist flag checked</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_f88603648a894eef8f9e7858ad33505c" name="1_3" type="Automatic">
+                <documentation>1_3</documentation>
+                <parameters/>
+                <description>
+                    <step id="01dab379f73441dfba07bf418ed08025">
+                        <action>Log into Oracle CRM  .</action>
+                        <observation>1System should be able to login into oracle CRM successfully.</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_4421295f80984fa7a9a77efb3c934270" name="2_2" type="Automatic">
+                <documentation>2_2</documentation>
+                <parameters/>
+                <description>
+                    <step id="c3eab49dd0684286905b8ac620aa9a99">
+                        <action>Click on Corporate Customer Creation Task</action>
+                        <observation>.System should navigate to the customer creation page successfully</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_75753d99506a48eea07d582eca862f68" name="3_3" type="Automatic">
+                <documentation>3_3</documentation>
+                <parameters/>
+                <description>
+                    <step id="a03e0de165b34c8f83058288856ebece">
+                        <action>Choose the number of levels to be created for the customer .</action>
+                        <observation>System should allow the user to choose the number of levels to be created for the customer</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_c8b7fa930c954be2bc30228d74e8943f" name="4_2" type="Automatic">
+                <documentation>4_2</documentation>
+                <parameters/>
+                <description>
+                    <step id="f5ee705018f54e85a0ccfd963f2b1af2">
+                        <action>Choose the number of connection / subscribers to be created</action>
+                        <observation>System should allow the CSR to choose and create number of subscribers to be created .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_1fac8ad0bff14e9c932df7dbabf9aa69" name="5_1" type="Automatic">
+                <documentation>5_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="4fe254781ff3428ea2ca34eade835a62">
+                        <action>Choose the Bill cycle</action>
+                        <observation>System should allow the CSR to select and fix the bill cycle for the customer</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_6b3fba1b5c964cb48a3c1fa69bd6fed8" name="6_1" type="Automatic">
+                <documentation>6_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="edf08768bf61446c9310abec17047eb4">
+                        <action>select the authorized person : for primary contact</action>
+                        <observation>System should allow the CSR to choose the primary contact for the authorized person</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_47efd49325c740a0a6716ee67bf82ec7" name="7_1" type="Automatic">
+                <documentation>7_1</documentation>
+                <parameters/>
+                <description>
+                    <step id="d97a61c7df0d46b38964ddc7b66f1c71">
+                        <action>select the KAM and contact information</action>
+                        <observation>.System should allow the CSR choose the key account manager contact details and should create information for KAM</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_c416d136bb3b489ab3707d8b35c56ad1" name="8" type="Automatic">
+                <documentation>8</documentation>
+                <parameters/>
+                <description>
+                    <step id="7df746504d8d4061bcc9027165cf791a">
+                        <action>.select the KAM and contact information .
+8.Fill the Company Specific Details :
+ - ID type &amp; number
+ - Organization category 
+ - ID Expiry date &amp; Category
+ - Company name in Arabic 
+ - Company other details like size , type , sector , segment</action>
+                        <observation>System must allow the CSR to fill and create company specific details for the customer .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_cfe1883ef38642019073bc7abaf9c41b" name="9" type="Automatic">
+                <documentation>9</documentation>
+                <parameters/>
+                <description>
+                    <step id="0c079591fb464223866726e7074221db">
+                        <action>Fill the Address Information details 
+ - Address 
+ - Address details , city , avenue , country ,..etc.</action>
+                        <observation>System should allow the CSR to create and fill the details for the address of the customer</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_91ac8068bcdb4d86bdeb687f70d33761" name="10" type="Automatic">
+                <documentation>10</documentation>
+                <parameters/>
+                <description>
+                    <step id="2b1d967dbcb84fb88c79381424d563f0">
+                        <action>Fill in the details for the Billing 
+ - Bill Frequency
+ - Bill SMS Notification
+ - Currency 
+ - Invoice format 
+ - Media Type
+ - Currency 
+ - other details</action>
+                        <observation>CSR must be able to create and fill details for the Billing account</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_ea157028fed442e1ba5ccc53e1c2836c" name="11" type="Automatic">
+                <documentation>11</documentation>
+                <parameters/>
+                <description>
+                    <step id="1bacec4f10d34c18a22ecfdc8e61b93e">
+                        <action>Click next &amp; proceed to CUSTOMER ORG HEIRARCHY</action>
+                        <observation>System must allow the CSR to create customer organization hierarchy for the customer .</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_7e9749563ea34a4f9287e80cce944cdd" name="12" type="Automatic">
+                <documentation>12</documentation>
+                <parameters/>
+                <description>
+                    <step id="1deb73f386394b3ab989dfc9c2fcbe6d">
+                        <action>Organize the HIERARCHY with respect to the Account details.</action>
+                        <observation>System must create the Hierarchy ( with respect to A/c details )</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_31fac4cc888c44a3bb60ace6d97e5219" name="13" type="Automatic">
+                <documentation>13</documentation>
+                <parameters/>
+                <description>
+                    <step id="1c1dd91504ea4a20afa3b920d85e5e5f">
+                        <action>Click next &amp; account is created .</action>
+                        <observation>System must Validate the details and account is to be created</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_8f654f391df54735baea735d4445f2a4" name="1_4" type="Automatic">
+                <documentation>1_4</documentation>
+                <parameters/>
+                <description>
+                    <step id="0b6edc915d1d4dbfb84526832099bbc4">
+                        <action>Login to Siebel CRM with admin access</action>
+                        <observation>Login to Siebel CRM with admin access should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_0c804927f61042c79906e7588f1d18df" name="2_3" type="Automatic">
+                <documentation>2_3</documentation>
+                <parameters/>
+                <description>
+                    <step id="7e89d38f75d44881bb4afcb4bea939c5">
+                        <action>Navigate to access management Screen</action>
+                        <observation>Navigate to access management Screen should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_6835c73f9d6e409bba34dd2c1c0e4f34" name="3_4" type="Automatic">
+                <documentation>3_4</documentation>
+                <parameters/>
+                <description>
+                    <step id="e557c6c61d59479da9fc8c45ade23d17">
+                        <action>Assign the user to multiple groups</action>
+                        <observation>User should be successfully assigned to multiple groups</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_8eaeafbab04147cfb82fd0080cc11b9b" name="4_3" type="Automatic">
+                <documentation>4_3</documentation>
+                <parameters/>
+                <description>
+                    <step id="60f32a976c364ac29bf22077ade8e2a3">
+                        <action>Login to Siebel CRM with user access</action>
+                        <observation>Login to Siebel CRM with user access should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_51b532cc7460490da0bc49f85850dc6e" name="5_2" type="Automatic">
+                <documentation>5_2</documentation>
+                <parameters/>
+                <description>
+                    <step id="09bf8703c6ee46b4b29d2640cdad7587">
+                        <action>Check whether the user is able to access the multiple groups assigned to him</action>
+                        <observation>User should be able to access the multiple groups assigned to him</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_f328f778fe944009a34445706369f2b8" name="1_5" type="Automatic">
+                <documentation>1_5</documentation>
+                <parameters/>
+                <description>
+                    <step id="b55dabf36a4d40619e7c70d907b49b90">
+                        <action>Login to Siebel CRM with individual agent position</action>
+                        <observation>Login to Siebel CRM with individual agent position should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_bb25efc6993142debd5ae1b77d203040" name="Check whether the user ... is able to access Zain customer data based on individual agent position" type="Automatic">
+                <documentation>Check whether the user ... is able to access Zain customer data based on individual agent position</documentation>
+                <parameters/>
+                <description>
+                    <step id="c3d17261e2bf4dd4ac0db83f71c12004">
+                        <action>Check whether the user is able to access Zain customer data based on individual agent position</action>
+                        <observation>User should be able to access Zain customer data based on individual agent position</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_bb2fe9e05eb64a3a957cda1fb9bb7824" name="1_6" type="Automatic">
+                <documentation>1_6</documentation>
+                <parameters/>
+                <description>
+                    <step id="cac45a66422340939b65742ea4ea7ec2">
+                        <action>Login to Siebel CRM with team access control</action>
+                        <observation>Login to Siebel CRM with team access control should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_b48e5ff08bc64936b48fb44247cae205" name="2_4" type="Automatic">
+                <documentation>2_4</documentation>
+                <parameters/>
+                <description>
+                    <step id="e34cb9f643bd483d81bf39b28a17c978">
+                        <action>Check whether the user is able to access Zain customer data based on team access control</action>
+                        <observation>User should be able to access Zain customer data based on team access control</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_c59ae7b531ca4cc88adb9a2f33027558" name="1_7" type="Automatic">
+                <documentation>1_7</documentation>
+                <parameters/>
+                <description>
+                    <step id="e60ce20638ae455eb09c1b0771d5f4ef">
+                        <action>Login to Siebel CRM with parent position</action>
+                        <observation>Login to Siebel CRM with parent position should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_d98278c3cb6643e28e6f04302124185a" name="Check whether the admin ... able to control the access and views of the agent to access customer data" type="Automatic">
+                <documentation>Check whether the admin ... able to control the access and views of the agent to access customer data</documentation>
+                <parameters/>
+                <description>
+                    <step id="1494df7e7a634a9ba4c73a8b45301a2d">
+                        <action>Check whether the admin is able to control the access and views of the agent to access customer data</action>
+                        <observation>Admin should be able to control the access and views of the agent to access customer data</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_03aa42c5b71e4a81bb22215f57eb459f" name="1_8" type="Automatic">
+                <documentation>1_8</documentation>
+                <parameters/>
+                <description>
+                    <step id="c9268abba652469ebc47be92f2892294">
+                        <action>Login to Siebel CRM with agent credential</action>
+                        <observation>Login to Siebel CRM with agent credential should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_05bf91570ee44d0d9cdd8462185ff680" name="2_5" type="Automatic">
+                <documentation>2_5</documentation>
+                <parameters/>
+                <description>
+                    <step id="2f3f763c60e943d886f8aa134d00ca69">
+                        <action>Check whether agent receive the inbound call</action>
+                        <observation>Agent should receive the inbound call</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_6fdf6dd6e1584f0aa41b28f8e77d5451" name="Check whether system ... creates an interaction record once the call is disconnected by the customer" type="Automatic">
+                <documentation>Check whether system ... creates an interaction record once the call is disconnected by the customer</documentation>
+                <parameters/>
+                <description>
+                    <step id="fb68dbddf9284bdd9ec2065e27ee1cbe">
+                        <action>Check whether system creates an interaction record once the call is disconnected by the customer</action>
+                        <observation>System should creates an interaction record once the call is disconnected by customer</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_b7af31d860004640a18a0c6c1502a9d2" name="3_5" type="Automatic">
+                <documentation>3_5</documentation>
+                <parameters/>
+                <description>
+                    <step id="9cd0534d071a4ebbb706ddb648c645b3">
+                        <action>Check whether system creates an interaction record once the call get hanged up inbetween</action>
+                        <observation>System should create an interaction record once the call get hanged up inbetween</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_fe2b64c1f90f407ab0e22abca1c5d1db" name="1_9" type="Automatic">
+                <documentation>1_9</documentation>
+                <parameters/>
+                <description>
+                    <step id="98abe254593e4b5b958d8621c006bc47">
+                        <action>Login to Siebel CRM</action>
+                        <observation>Login to Siebel CRM should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_b6408d0be1f947a48dc779ab4b381d9c" name="2_6" type="Automatic">
+                <documentation>2_6</documentation>
+                <parameters/>
+                <description>
+                    <step id="c16521d3e7684317868d6e89fbf305b1">
+                        <action>Navigate to service request screen</action>
+                        <observation>Navigate to service request screen should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_5926a44e51834d16b1f2aad4be5ed456" name="Check whether service ... request created in remedy application is displayed with necessary fields" type="Automatic">
+                <documentation>Check whether service ... request created in remedy application is displayed with necessary fields</documentation>
+                <parameters/>
+                <description>
+                    <step id="2877648998b942deb966d8bfe394e250">
+                        <action>Check whether service request created in remedy application is displayed with necessary fields</action>
+                        <observation>Service request created in remedy application should be displayed with necessary fields</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+            <keyword id="_c20417bae5154d42b403cfe0414511a4" name="2_7" type="Automatic">
+                <documentation>2_7</documentation>
+                <parameters/>
+                <description>
+                    <step id="41d621241d164dae9689893265eaa9b3">
+                        <action>Navigate to 360 degree view</action>
+                        <observation>Navigate to 360 degree view should be successful</observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent/>
+                </keywordautomation>
+            </keyword>
+        </keywordcategory>
+    </keywords>
+    <testsuites>
+        <testsuite id="29cb1ca6d9b94a4d8eca8a6d7f1b1e17" name="Sheet1">
+            <description id="78ed7c55777b439a9c33889f4e0b221e">Sheet1</description>
+            <test id="7aa484991bb346bd8c8bc35b8f1622c4" name="To validate creation of a Customer B2C through CRM By providing Iqama ID">
+                <description id="49157119594d49acb3b38070cb47f995">1. Valida Access to Seibel CRM</description>
+                <dataset>
+                    <data id="d24470d720c445c4a09871b11a595700" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="2d00306d6982415f88ffcba9bbad437a" type="keyword" targetid="_c998b2c8bd464b2e9c7c45300fe32aa1" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="4af82294cba14d52878c53229ea987d3" type="keyword" targetid="_191733c13e4748368f8a45957c90e3da" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="bf42edd49c2c4b53bd3614107523332d" type="keyword" targetid="_1fdd7e0fe38a4c789d95e1f3576cedd4" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+                <teststep id="e53823d784b94c858c7bac3ff0a713bf" type="keyword" targetid="_a8091ecaf3d24894b856c6b77e8b0d8c" source=" " seqNo="4">
+                    <arguments/>
+                </teststep>
+                <teststep id="20a2ede03bcf4828ba0fb2591ee89c2b" type="keyword" targetid="_06fc97138de642adab19af860920e756" source=" " seqNo="5">
+                    <arguments/>
+                </teststep>
+                <teststep id="1c99f095d05a44a4b932e1a88fc00fa6" type="keyword" targetid="_2993e710e0d646b4a992db4a13f2584d" source=" " seqNo="6">
+                    <arguments/>
+                </teststep>
+                <teststep id="09e5bd9b16a04adea161e7e2433d5f83" type="keyword" targetid="_e822fbda5bf84fb394969bd3e3af5df4" source=" " seqNo="7">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="76b446e7501e47a3a4a20d00fd963a9e" name="To validate whether supports creation of a Customer B2C through MSA Channel">
+                <description id="87391e510eff452d84ff694f3f8a3349">1. Valida Access to Seibel CRM</description>
+                <dataset>
+                    <data id="f61fc16c6f304f9bb821e8c51326ec07" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="6d7e8fd57afd48f7856d143d5f042c72" type="keyword" targetid="_e1070948d4d8447f9a46ad4d66309fb0" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="416ae469c6a74c7e8dd6760755c98c9a" type="keyword" targetid="_91ed1f5d4e6c411d84c29fea2244f22e" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="be8f1b6dfcb14bf39789005fac4f058e" type="keyword" targetid="_6669940e8d0f4b749bd7db213b00498b" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+                <teststep id="7b375c21f19a4bbfa1c13601514737a9" type="keyword" targetid="_056521a1490c40599f3117a5e1367e63" source=" " seqNo="4">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="03ac76399b004cbb8efb35bfaa86b64d" name="To validate whether the system should support to mark or flag the customer as black listed">
+                <description id="299e6b2c460a43a6a5d9ea178d8e5fa5">Customer to be updated as blacklisted (after the account is created ) from DEBT management .</description>
+                <dataset>
+                    <data id="c89ab72815b745869abcaad0cd674c51" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="d3bf6af4c71f4e17884beb68db1f8ae6" type="keyword" targetid="_98d5d9aede234de1a4e38c3aaa61fd3d" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="c794775376584ac2872e941a83b973e3" type="keyword" targetid="_736b09d256d34cc59cbf76d72be3cba8" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="4f8e20008fb147f3818dc5bb3d3d6d1b" type="keyword" targetid="_6e900c2a3afd49d39c5bc92e9fc9bffd" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="e73e52a4e4754478b8448e4727adfeaf" name="To validate capturing the Address as Mandatory  during Creation of a B2B customer process ">
+                <description id="0e0b96dd7f3349338bcb1593176a1036">To validate capturing the Address as Mandatory  during Creation of a B2B customer process</description>
+                <dataset>
+                    <data id="b8d367aa73e44fa89067b47b5909f4ab" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="4e7a396189b54def91ee716bdbd06285" type="keyword" targetid="_f88603648a894eef8f9e7858ad33505c" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="4be62cb0729e48088ff85f2450946a9b" type="keyword" targetid="_4421295f80984fa7a9a77efb3c934270" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="9f4e643b2bdd4173ba992660a79993e3" type="keyword" targetid="_75753d99506a48eea07d582eca862f68" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+                <teststep id="204e5ee9789e4f0f8d90407c4b5b4945" type="keyword" targetid="_c8b7fa930c954be2bc30228d74e8943f" source=" " seqNo="4">
+                    <arguments/>
+                </teststep>
+                <teststep id="baebc5bf3e3c49779f456e243f953cba" type="keyword" targetid="_1fac8ad0bff14e9c932df7dbabf9aa69" source=" " seqNo="5">
+                    <arguments/>
+                </teststep>
+                <teststep id="8fc0c3962e6445e898e4178ddd9e4346" type="keyword" targetid="_6b3fba1b5c964cb48a3c1fa69bd6fed8" source=" " seqNo="6">
+                    <arguments/>
+                </teststep>
+                <teststep id="795c4bb2a0b9433091faca151ad462e4" type="keyword" targetid="_47efd49325c740a0a6716ee67bf82ec7" source=" " seqNo="7">
+                    <arguments/>
+                </teststep>
+                <teststep id="9a7c49fe12dd45fe9463a3f31da18b1c" type="keyword" targetid="_c416d136bb3b489ab3707d8b35c56ad1" source=" " seqNo="8">
+                    <arguments/>
+                </teststep>
+                <teststep id="e388aa9e1e2a489fb4aa8baacea9f21d" type="keyword" targetid="_cfe1883ef38642019073bc7abaf9c41b" source=" " seqNo="9">
+                    <arguments/>
+                </teststep>
+                <teststep id="b11d6fc8c2cf423a92686ab1f6113bac" type="keyword" targetid="_91ac8068bcdb4d86bdeb687f70d33761" source=" " seqNo="10">
+                    <arguments/>
+                </teststep>
+                <teststep id="2725c77247f04ccaa2d1e35f75b5e473" type="keyword" targetid="_ea157028fed442e1ba5ccc53e1c2836c" source=" " seqNo="11">
+                    <arguments/>
+                </teststep>
+                <teststep id="fca9d97aad694e4f8e96b70ee6b760f2" type="keyword" targetid="_7e9749563ea34a4f9287e80cce944cdd" source=" " seqNo="12">
+                    <arguments/>
+                </teststep>
+                <teststep id="d2016c6aef21444f8a51806d68d8bcad" type="keyword" targetid="_31fac4cc888c44a3bb60ace6d97e5219" source=" " seqNo="13">
+                    <arguments/>
+                </teststep>
+            </test>
+        </testsuite>
+        <testsuite id="79a19d0c25254988ad5b476a356bab70" name="Sheet3">
+            <description id="77bd9035407041efb84d705cbe74a16f">Sheet3</description>
+            <test id="f219f699d2d34d0a9a464b890d266cfc" name="Verify that the admin is able to assign the user to multiple groups">
+                <description id="183be19465334c43b36a6f68a232a1d7">1. Admin user should already exist in system
+2. Agent user should already exist in system</description>
+                <dataset>
+                    <data id="85b8f2adb7d34a32b7606bae8b8bf20c" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="e5502378f5204572b6453ab72285076d" type="keyword" targetid="_8f654f391df54735baea735d4445f2a4" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="0b5000b17dc346fe86237fee4b826233" type="keyword" targetid="_0c804927f61042c79906e7588f1d18df" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="84b06f8bce8143229d4ff7260dd86eae" type="keyword" targetid="_6835c73f9d6e409bba34dd2c1c0e4f34" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+                <teststep id="228c2759db66404d9e69ffd37780a098" type="keyword" targetid="_8eaeafbab04147cfb82fd0080cc11b9b" source=" " seqNo="4">
+                    <arguments/>
+                </teststep>
+                <teststep id="e6f06fb108074d6e9230945b786d6123" type="keyword" targetid="_51b532cc7460490da0bc49f85850dc6e" source=" " seqNo="5">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="8a569548bd664a398179b396b222cb91" name="Verify that the Zain customer data is accessed based on the individual agents position ">
+                <description id="abcc5d114b3f44f998edbce31d64a51f">1. User should already exist in system with individual agent position</description>
+                <dataset>
+                    <data id="ee1ccee0bd744f9a8778b5529f175e4b" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="ca94e26abd8d4070b4b06a3c8299d8ba" type="keyword" targetid="_f328f778fe944009a34445706369f2b8" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="9ab4f90a6f0e427daf1dc79c69dbe220" type="keyword" targetid="_bb25efc6993142debd5ae1b77d203040" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="0a013b14894247f69a81065d49e0e064" name="Verify that the Zain customer data is accessed based on the team access control ">
+                <description id="1b888350349f4522903e72691965442f">1. User should already exist in system with team access control position</description>
+                <dataset>
+                    <data id="bb46fa57bba04476b68afa2dbfb468a0" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="c8177d633f054fd789eb2cc59640f0ea" type="keyword" targetid="_bb2fe9e05eb64a3a957cda1fb9bb7824" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="38d1112e96eb46f79187039a07b02162" type="keyword" targetid="_b48e5ff08bc64936b48fb44247cae205" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="a32bc11a57954f47b34054ffd836be8e" name="Verify that the Parent position of the agent is able to control the access and views of the agent to access the customer data ">
+                <description id="54e40d910ead4143b66174e0f7f380a6">1. User should already exist in system with parent position</description>
+                <dataset>
+                    <data id="92d848e9d8b442d5a106c73248db25fe" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="8d36018a95cb417182006ebdce8575c4" type="keyword" targetid="_c59ae7b531ca4cc88adb9a2f33027558" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="ea298d01b31745c5ac500ef9232ffb1f" type="keyword" targetid="_0c804927f61042c79906e7588f1d18df" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="5cc307eec85b45f7af69ddb5b7c3dc44" type="keyword" targetid="_d98278c3cb6643e28e6f04302124185a" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="45d651082661434d886c58c46fe46262" name="Verify that Creation of interaction through inbound call once the call disconnected by the customer ">
+                <description id="333dff8539e343248450ac60d58b5e6e">1. Customer should have initiated inbound call</description>
+                <dataset>
+                    <data id="4b4305204ac94d9cbfa545c013f557ef" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="d9add95476b14f158f2a9023d9edb6a0" type="keyword" targetid="_03aa42c5b71e4a81bb22215f57eb459f" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="485bc7e444924d80ab6bd193ea333319" type="keyword" targetid="_05bf91570ee44d0d9cdd8462185ff680" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="df7f88f673014a91b669bb90e1cca831" type="keyword" targetid="_6fdf6dd6e1584f0aa41b28f8e77d5451" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="fec3b0161fb04c64b0e0481e157f4c29" name="Verify that Creation of interaction through inbound call once the call gets hanged up in between ">
+                <description id="11916c5089034e8d9475f6e4433a63ac">1. Customer should have initiated inbound call</description>
+                <dataset>
+                    <data id="084a06b875cc41c5bc11d5c9e252adb8" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="4b558a3ebe6c4402830ce07ec962cabe" type="keyword" targetid="_03aa42c5b71e4a81bb22215f57eb459f" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="3852e49540694de7a796cab6ca83117d" type="keyword" targetid="_05bf91570ee44d0d9cdd8462185ff680" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="bbebd369d84f446c91aa6642a7d68b7f" type="keyword" targetid="_b7af31d860004640a18a0c6c1502a9d2" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="0c6daafc0ace438987891e50a6f97cea" name="Verify that system allows CSR to query the SR from remedy application for a customer ">
+                <description id="bd44b1f0de8247a797f47f972b758fac">1. Service request should be already created for the customer in remedy application</description>
+                <dataset>
+                    <data id="6fd63319fa82451cb78e18d73134666b" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="9e812edea9714e0b993313d97cdc542b" type="keyword" targetid="_fe2b64c1f90f407ab0e22abca1c5d1db" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="b90bf12e86ca4e888881980b944e51ad" type="keyword" targetid="_b6408d0be1f947a48dc779ab4b381d9c" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="f016c6d24cfa4084ab041c639784f2f7" type="keyword" targetid="_5926a44e51834d16b1f2aad4be5ed456" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="119759a4e90a4851bc1fe9fb848dfbf4" name="Verify that the CSR able to view the history of SR s of a customer in 360 degree view ">
+                <description id="c4584d8c23cb4658b0407e03aa968a36">1. Service request should be already created for the customer in remedy application</description>
+                <dataset>
+                    <data id="9c94504d432b4f7a95f516876f44f326" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="8559233ac6c14e17ad6720bf358d14ea" type="keyword" targetid="_fe2b64c1f90f407ab0e22abca1c5d1db" source=" " seqNo="1">
+                    <arguments/>
+                </teststep>
+                <teststep id="f78a96d3d17149d8b6c3563d4f077283" type="keyword" targetid="_c20417bae5154d42b403cfe0414511a4" source=" " seqNo="2">
+                    <arguments/>
+                </teststep>
+                <teststep id="2895543d79ac4e879968d9f48f38c6f9" type="keyword" targetid="_5926a44e51834d16b1f2aad4be5ed456" source=" " seqNo="3">
+                    <arguments/>
+                </teststep>
+            </test>
+        </testsuite>
+    </testsuites>
+</project>

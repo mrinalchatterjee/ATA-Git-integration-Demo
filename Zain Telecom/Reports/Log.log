@@ -1,0 +1,180 @@
+Mon May 28 18:31:06 IST 2018
+ INFO: Processing CRM Related Cases_second set.xls
+
+Mon May 28 18:31:12 IST 2018
+ INFO: Excel Read complete
+Mon May 28 18:31:12 IST 2018
+ INFO: Creating CTA XML file :CRM Related Cases_second set.xml
+Mon May 28 18:31:12 IST 2018
+ INFO: Processed CTA XML file :CRM Related Cases_second set.xml
+Mon May 28 18:31:16 IST 2018
+ INFO: Project Name :CRM Related Cases_second set
+
+------------------Test Analysis Report Begins----------
+
+Test Case Optimization:
+-------------------------------------------------------
+Tests Processed :
+Test 1: Verify that Creation of interaction through inbound call once the call disconnected by the customer  : 1 occurrence 
+Test 2: To validate whether supports creation of a Customer B2C through MSA Channel : 1 occurrence 
+Test 3: To validate capturing the Address as Mandatory  during Creation of a B2B customer process  : 1 occurrence 
+Test 4: Verify that the Parent position of the agent is able to control the access and views of the agent to access the customer data  : 1 occurrence 
+Test 5: To validate creation of a Customer B2C through CRM By providing GCC ID : 1 occurrence 
+Test 6: To validate whether the system support to update customer demographic Mail Address etc  information from external channels : 1 occurrence 
+Test 7: Verify that the CSR able to view the history of SR s of a customer in 360 degree view  : 1 occurrence 
+Test 8: Verify that the user is able to access the postpaid customer data based on assigned responsibility : 1 occurrence 
+Test 9: Verify that Creation of interaction through inbound call once the call gets hanged up in between  : 1 occurrence 
+Test 10: To validate capturing the Address as Mandatory  during Creation of a B2C customer process  : 1 occurrence 
+Test 11: Verify that the user is able to access the prepaid customer data based on assigned responsibility : 1 occurrence 
+Test 12: Verify that the user is able to access the MBB customer data based on assigned responsibility : 1 occurrence 
+Test 13: To validate whether supports creation of a Customer B2C through External systems like KIOSKS : 1 occurrence 
+Test 14: To validate whether the system should support to mark or flag the customer as black listed : 1 occurrence 
+Test 15: To validate creation of a Customer B2C through CRM By providing Passport for visitors on travel visa  : 1 occurrence 
+Test 16: Verify that the Zain customer data is accessed based on the individual agents position  : 1 occurrence 
+Test 17: Verify that the Zain customer data is accessed based on the team access control  : 1 occurrence 
+Test 18: To validate creation of a Customer B2C through CRM By providing Civil ID : 1 occurrence 
+Test 19: Verify that the admin is able to assign the user to multiple groups : 1 occurrence 
+Test 20: To validate whether the system does not allow creation of a new customer if the customer is already in blacklist  : 1 occurrence 
+Test 21: Verify that system allows CSR to query the SR from remedy application for a customer  : 1 occurrence 
+Test 22: To validate creation of a Customer B2C through CRM By providing Iqama ID : 1 occurrence 
+Test 23: To validate creation of a B2B customer through CRM with unique Company Registration number  : 1 occurrence 
+
+These 1 tests have been identified to be redundant (contained or exact duplicates of others):
+ - "To validate creation of a B2B customer through CRM with unique Company Registration number " is a duplicate of "To validate capturing the Address as Mandatory  during Creation of a B2B customer process " (redundant)
+
+ - Reduction in Tests:  5%
+
+Input Action/Test Step Optimization :
+-------------------------------------------------------
+Total No of Test Steps : 0
+
+Verification Action/Expected result Optimization :
+-------------------------------------------------------
+Total No of Step Expected Results :0
+
+Generated Keywords:
+-------------------------------------------------------
+Total No of Keywords :66
+Keyword 1: Check whether the user ... is able to access Zain customer data based on individual agent position : 1
+Keyword 2: Search the Individual ... anyone of the following parameterCustomer NameId TypeCustomer ID MSISDN : 1
+Keyword 3: Check whether the user ... able to access the prepaid customer data assigned to him as responsibility : 1
+Keyword 4: Check whether the user ... able to access the MBB customer data assigned to him as responsibility : 1
+Keyword 5: 10 : 1
+Keyword 6: 11 : 1
+Keyword 7: 12 : 1
+Keyword 8: 13 : 1
+Keyword 9: 1_1 : 1
+Keyword 10: 1_2 : 1
+Keyword 11: 3_1 : 1
+Keyword 12: 1_3 : 1
+Keyword 13: 3_2 : 1
+Keyword 14: 1_4 : 1
+Keyword 15: Check whether service ... request created in remedy application is displayed with necessary fields : 1
+Keyword 16: 5_1 : 1
+Keyword 17: 3_3 : 1
+Keyword 18: 1_5 : 1
+Keyword 19: 5_2 : 1
+Keyword 20: 3_4 : 1
+Keyword 21: 1_6 : 1
+Keyword 22: 5_3 : 1
+Keyword 23: 7_1 : 1
+Keyword 24: 3_5 : 1
+Keyword 25: 1_7 : 1
+Keyword 26: 5_4 : 1
+Keyword 27: 3_6 : 1
+Keyword 28: 7_2 : 1
+Keyword 29: 1_8 : 1
+Keyword 30: 5_5 : 1
+Keyword 31: 3_7 : 1
+Keyword 32: 1_9 : 1
+Keyword 33: 5_6 : 1
+Keyword 34: 3_8 : 1
+Keyword 35: 5_7 : 1
+Keyword 36: Search the Customer account ... created in the External Channels like Kiosks with the Customer ID : 1
+Keyword 37: 1 : 1
+Keyword 38: 2 : 1
+Keyword 39: 3 : 1
+Keyword 40: 4 : 1
+Keyword 41: 5 : 1
+Keyword 42: 6 : 1
+Keyword 43: Search the customer ... anyone of the following parameterCustomer NameId TypeCustomer ID MSISDN : 1
+Keyword 44: 7 : 1
+Keyword 45: 8 : 1
+Keyword 46: 9 : 1
+Keyword 47: Check whether system ... creates an interaction record once the call is disconnected by the customer : 1
+Keyword 48: Check whether the user ... to access the postpaid customer data assigned to him as responsibility : 1
+Keyword 49: Check whether the admin ... able to control the access and views of the agent to access customer data : 1
+Keyword 50: 2_1 : 1
+Keyword 51: 2_2 : 1
+Keyword 52: 4_1 : 1
+Keyword 53: 2_3 : 1
+Keyword 54: 4_2 : 1
+Keyword 55: 2_4 : 1
+Keyword 56: 4_3 : 1
+Keyword 57: 6_1 : 1
+Keyword 58: 2_5 : 1
+Keyword 59: 4_4 : 1
+Keyword 60: 6_2 : 1
+Keyword 61: 2_6 : 1
+Keyword 62: 4_5 : 1
+Keyword 63: 2_7 : 1
+Keyword 64: 4_6 : 1
+Keyword 65: 2_8 : 1
+Keyword 66: 1_10 : 1
+
+Requirement Coverage:
+-------------------------------------------------------
+Total No of Covered Requirements :0
+
+-------------------------------------------------------
+
+Test suite optimization during import:
+These 1 tests have been identified to be redundant (contained or exact duplicates of others):
+ - "To validate creation of a B2B customer through CRM with unique Company Registration number " is a duplicate of "To validate capturing the Address as Mandatory  during Creation of a B2B customer process " (redundant)
+
+ - Reduction in Tests:  5%
+
+------------------Test Analysis Report Ends------------
+
+Mon May 28 18:31:17 IST 2018
+ INFO: testsuite Sheet1 , allElements size : 45
+Mon May 28 18:31:17 IST 2018
+ INFO: updateConnections allElements size: 55
+Mon May 28 18:31:17 IST 2018
+ INFO: updateConnections allConnectors size: 59
+Mon May 28 18:31:17 IST 2018
+ INFO: UpdateDecisiontoEvent allElements size: 61
+Mon May 28 18:31:17 IST 2018
+ INFO: UpdateDecisiontoEvent allConnectors size: 65
+Mon May 28 18:31:17 IST 2018
+ INFO: CreateActivities allElements size: 61
+Mon May 28 18:31:17 IST 2018
+ INFO: CreateActivities allConnectors size: 72
+Mon May 28 18:31:18 IST 2018
+ INFO: testsuite Sheet3 , allElements size : 23
+Mon May 28 18:31:18 IST 2018
+ INFO: updateConnections allElements size: 35
+Mon May 28 18:31:18 IST 2018
+ INFO: updateConnections allConnectors size: 37
+Mon May 28 18:31:18 IST 2018
+ INFO: UpdateDecisiontoEvent allElements size: 39
+Mon May 28 18:31:18 IST 2018
+ INFO: UpdateDecisiontoEvent allConnectors size: 41
+Mon May 28 18:31:18 IST 2018
+ INFO: CreateActivities allElements size: 39
+Mon May 28 18:31:18 IST 2018
+ INFO: CreateActivities allConnectors size: 46
+Mon May 28 18:31:18 IST 2018
+ INFO: 17 custom actions reduced in 133
+Mon May 28 18:31:18 IST 2018
+ INFO: Excel convertion result: true
+Mon May 28 18:31:18 IST 2018
+ INFO: Following 1 out of 1 Excel files have been successfully imported.
+- CRM Related Cases_second set.xls
+
+Test suite optimization during import:
+These 1 tests have been identified to be redundant (contained or exact duplicates of others):
+ - "To validate creation of a B2B customer through CRM with unique Company Registration number " is a duplicate of "To validate capturing the Address as Mandatory  during Creation of a B2B customer process " (redundant)
+
+ - Reduction in Tests:  5%
+
